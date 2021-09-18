@@ -5,7 +5,7 @@ elif start == "2":
     a = int(input("First Number: "))
     b = int(input("Second Number: "))
     s = a + b
-    print("The sum is: ") 
+    print("The sum is: ", s) 
 elif start == "3":
     #Jershon's function
 elif start == "4":
