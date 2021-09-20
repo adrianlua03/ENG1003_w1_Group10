@@ -1,7 +1,9 @@
 start = input("Enter the function to be executed: ")
 if start == "1":
   x = int(input("Height:"))
-  print("xxx\n"*x)
+  while x>0:
+      print("xxx")
+      x-=1
 elif start == "2":
   a = int(input("First Number: "))
   b = int(input("Second Number: "))
