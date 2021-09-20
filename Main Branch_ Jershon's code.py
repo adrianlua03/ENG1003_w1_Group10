@@ -4,7 +4,7 @@ if start == "1":
 
     print("xxx\n"*x)
 elif start == "2":
-    #Jay's function
+    
 elif start == "3":
     x = int(input("List Length:"))
 
@@ -12,4 +12,4 @@ elif start == "3":
         print(x)
         x-=1
 elif start == "4":
-    #Johnny's function
+    
