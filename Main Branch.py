@@ -6,6 +6,7 @@ elif start == "2":
 elif start == "3":
     #Jershon's function
 elif start == "4":
+    
    side = int(input("Please Enter the Sides of a Square  : "))
     i = 0
     print("Square Size: ", side)
