@@ -19,13 +19,13 @@ elif start == "4":
   i = 0
   print("Square Size: ", side)
 
-while(i < side):
-        j = 0
-    while(j < side):      
-        j = j + 1
-        print('[]', end = '  ')
-    i = i + 1
-    print('')
+  while(i < side):
+      j = 0
+      while(j < side):      
+          j = j + 1
+          print('[]', end = '  ')
+      i = i + 1
+      print('')
 
 elif start == "5":
   import random
