@@ -19,14 +19,28 @@ elif start == "4":
   i = 0
   print("Square Size: ", side)
 
-    while(i < side):
+while(i < side):
         j = 0
     while(j < side):      
         j = j + 1
         print('[]', end = '  ')
     i = i + 1
     print('')
-    
+
+elif start == "5":
+  import random
+  un = random.randint(1, 200)
+  x = 0
+
+  while not x == un:
+      x = int(input("Guess: "))
+      if x<un:
+          print("Too low")
+      elif x>un:
+          print("Too high")
+      else:
+          print("Correct")
+
 # LT visited here :)
 
 
