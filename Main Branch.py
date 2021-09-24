@@ -15,10 +15,9 @@ elif start == "3":
     print(x)
     x-=1
 elif start == "4":
-side = int(input("Please Enter the Sides of a Square  : "))
-i = 0
-print("Square Size: ", side)
-while(i < side):
+  side = int(input("Please Enter the Sides of a Square  : "))
+  i = 0
+  while(i < side):
     j = 0
     while(j < side):      
         j = j + 1
