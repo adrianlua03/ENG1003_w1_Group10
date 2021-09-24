@@ -29,18 +29,29 @@ elif start == "4":
 
 elif start == "5":
   import random
-  un = random.randint(1, 200)
-  x = 0
 
-  while not x == un:
-      x = int(input("Guess: "))
-      if x<un:
-          print("Too low")
-      elif x>un:
-          print("Too high")
+  r = random.randint(50,200)
+  x = random.randint(1,r)
+  y=0
+  z=1
+  print('The range for this round is 1 -', r)
+  t = 0
+
+  while not y == x:
+      y = int(input("Make a guess:"))
+      if y>x:
+          r=y
+          print('The range is now',z,'-',r,'\n')
+          t+=1
+      
+      elif y<x:
+          z=y
+          print('The range is now',z,'-',r,'\n')
+          t+=1
+
       else:
-          print("Correct")
-
+          t+=1
+          print('BINGO! You took',t,'attempts to reach the answer!','\n')
 # LT visited here :)
 
 
