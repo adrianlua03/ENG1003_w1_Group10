@@ -53,6 +53,3 @@ elif start == "5":
           t+=1
           print('BINGO! You took',t,'attempts to reach the answer!','\n')
 # LT visited here :)
-
-
-
