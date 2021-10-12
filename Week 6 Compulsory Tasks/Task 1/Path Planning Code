@@ -53,8 +53,8 @@ class AStarPlanner:
         self.Delta_T = 5
         self.C_C = 10
         
-        self.Delta_F_A = 2 # additional fuel
-        self.Delta_T_A = 5 # additional time 
+        self.Delta_F_A = .2 # additional fuel
+        self.Delta_T_A = .2 # additional time 
         
         
 
@@ -146,13 +146,13 @@ class AStarPlanner:
                 if self.calc_grid_position(node.x, self.min_x) in self.tc_x:
                     if self.calc_grid_position(node.y, self.min_y) in self.tc_y:
                         # print("time consuming area!!")
-                        node.cost = node.cost + self.Delta_T_A * self.motion[i][2]
+                        node.cost = node.cost + self.Delta_T_A * self.motion[i][2] *self.C_T #####MY EDIT
                 
                 # add more cost in fuel-consuming area
                 if self.calc_grid_position(node.x, self.min_x) in self.fc_x:
                     if self.calc_grid_position(node.y, self.min_y) in self.fc_y:
                         # print("fuel consuming area!!")
-                        node.cost = node.cost + self.Delta_F_A * self.motion[i][2]
+                        node.cost = node.cost + self.Delta_F_A * self.motion[i][2] *self.C_F #####MY EDIT
                     # print()
                 
                 n_id = self.calc_grid_index(node)
@@ -200,7 +200,7 @@ class AStarPlanner:
     def calc_heuristic_maldis(n1, n2):
         w = 1.0  # weight of heuristic
         dx = w * math.abs(n1.x - n2.x)
-        dy = w *math.abs(n1.y - n2.y)
+        dy = w * math.abs(n1.y - n2.y)
         return dx + dy
 
     def calc_grid_position(self, index, min_position):
@@ -346,15 +346,15 @@ def main():
     
     # set fuel consuming area
     fc_x, fc_y = [], []
-    for i in range(30, 60):
-        for j in range(30, 40):
+    for i in range(30,61):
+        for j in range(30, 41):
             fc_x.append(i)
             fc_y.append(j)
-
+    
     # set time consuming area
     tc_x, tc_y = [], []
-    for i in range(0, 20):
-        for j in range(20, 40):
+    for i in range(0, 21):
+        for j in range(20, 41):
             tc_x.append(i)
             tc_y.append(j)
 
