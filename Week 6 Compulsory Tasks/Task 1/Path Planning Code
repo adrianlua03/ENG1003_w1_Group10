@@ -4,6 +4,7 @@ A* grid planning
 
 author: Atsushi Sakai(@Atsushi_twi)
         Nikos Kanargias (nkana@tee.gr)
+ft.: group 10
 
 See Wikipedia article (https://en.wikipedia.org/wiki/A*_search_algorithm)
 
@@ -146,13 +147,13 @@ class AStarPlanner:
                 if self.calc_grid_position(node.x, self.min_x) in self.tc_x:
                     if self.calc_grid_position(node.y, self.min_y) in self.tc_y:
                         # print("time consuming area!!")
-                        node.cost = node.cost + self.Delta_T_A * self.motion[i][2] *self.C_T #####MY EDIT
+                        node.cost = node.cost + self.Delta_T_A * self.motion[i][2] *self.C_T #####Group 10's Edit
                 
                 # add more cost in fuel-consuming area
                 if self.calc_grid_position(node.x, self.min_x) in self.fc_x:
                     if self.calc_grid_position(node.y, self.min_y) in self.fc_y:
                         # print("fuel consuming area!!")
-                        node.cost = node.cost + self.Delta_F_A * self.motion[i][2] *self.C_F #####MY EDIT
+                        node.cost = node.cost + self.Delta_F_A * self.motion[i][2] *self.C_F #####Group 10's Edit
                     # print()
                 
                 n_id = self.calc_grid_index(node)
