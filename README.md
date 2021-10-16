@@ -12,7 +12,7 @@
 <div id="About Path Planning">
   
 # About Path Planning 
-"Path planning is to find a way that the object is able to move from the origin to the destination.
+"Path planning is a process to identify or predict an object's ability to move from the origin to the destination.
 It is commonly used in aviation, robotics and computer games.
 In aviation, pilots have to do path planning before every flight in order to make sure the flight route is possible to run through.
 
@@ -20,6 +20,7 @@ Except for pilots, ATCs have to arrange flights around and in the airport too.
 As a result, path-planning is really important to the aviation industry since it can ensure our safety and reduce flight costs."
 
 Except for pilots, ATCs have to arrange flights around the airport
+
 
 
 <div id="Programming Tools">
@@ -34,10 +35,9 @@ Except for pilots, ATCs have to arrange flights around the airport
 <div id="Project Goals">
   
 # Project Goals
-In our project, we will:
-<li><a href="#Tasks">Choose the optimum aircraft models with lowest-cost route for the aircraft operation under given scenarios</a></li>
-<li><a href="#Tasks">Design the cost of the aircraft operation</li>
-<li><a href="#Tasks">Design a virtual aircraft model with different cost coefficients to fly as safe and cheap as possible</li>
+<li><a href="#Tasks">Choose the optimum aircraft models with lowest-cost route</a></li>
+<li><a href="#Tasks">Design an aircraft with low operation cost</li>
+<li><a href="#Tasks">Design virtual aircraft model with different cost coefficients to fly as safe and cheap as possible</li>
 
 <div id="Assignments">
   
