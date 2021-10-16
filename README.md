@@ -52,12 +52,33 @@ In our project, we will:
 <div id="Reflective Essays">
   
 # Reflective Essays
+  
   ####   LUA, Adrian Shalom (21093985D)
   
-  ####   ANG Jershon Ainsleigh Entote （21094022D）
+  <table><tr><td>
+    typehere1
+  </td></tr></table>  
+  
+  ####   ANG Jershon Ainsleigh Entote （21094022D）  
+  
+  <table><tr><td>
+    typehere2
+  </td></tr></table>  
   
   ####   TSUI Zheng Yang （21065427D）
+    
+  <table><tr><td>
+    typehere3
+  </td></tr></table>  
   
   ####   WONG Dik Hin ()
+    
+  <table><tr><td>
+    typehere4
+  </td></tr></table>  
   
   ####   Jay    ()
+    
+  <table><tr><td>
+    typehere5
+  </td></tr></table>  
