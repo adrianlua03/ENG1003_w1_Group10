@@ -1,5 +1,5 @@
 <details open="open">
-  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <summary><h4 style="display: inline-block">Table of Contents</h4></summary>  
     <li><a href="#About Path Planning">About Path Planning</a></li>
     <li><a href="#Programming Tools">Engineering Tools</a></li>
     <li><a href="#Project Goals">Project Goals</a></li>
