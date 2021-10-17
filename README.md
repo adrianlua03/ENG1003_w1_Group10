@@ -15,7 +15,6 @@
 
 "Path planning is a process to identify or predict an object's ability to move from the origin to the destination.
 
-"Path planning is to find a way that the object is able to move from the origin to the destination.
 
 It is commonly used in aviation, robotics and computer games.
 In aviation, pilots have to do path planning before every flight in order to make sure the flight route is possible to run through.
@@ -23,7 +22,6 @@ In aviation, pilots have to do path planning before every flight in order to mak
 Except for pilots, ATCs have to arrange flights around and in the airport too.
 As a result, path-planning is really important to the aviation industry since it can ensure our safety and reduce flight costs."
 
-Except for pilots, ATCs have to arrange flights around the airport
 
 
 
