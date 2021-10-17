@@ -32,11 +32,13 @@ Except for pilots, ATCs have to arrange flights around the airport
 <div id="Programming Tools">
   
 # Programming Tools 
-<li>Python</a></li>
+<pre>
+<li>Python</a>   <img src="Sources\220px-Python-logo-notext.svg.png" width="20" height="20"></li>
 
-<li>Github</a></li>
+<li>Github</a>   <img src="Sources\logo_github_icon_143196.png" width="20" height="20"></li>
 
-<li>Microsoft Visual Studio</li>
+<li>Microsoft Visual Studio   <img src="Souces\Visual_Studio_Icon_2019.svg.png" width="20" height="20"></li>
+</pre>
 
 <div id="Project Goals">
   
