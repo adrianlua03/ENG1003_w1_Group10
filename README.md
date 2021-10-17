@@ -42,9 +42,9 @@ As a result, path-planning is really important to the aviation industry since it
   
 # Project Goals
 
-<li><a href="#Tasks">Choose the optimum aircraft models with lowest-cost route</a></li>
-<li><a href="#Tasks">Design an aircraft with low operation cost</li>
-<li><a href="#Tasks">Design virtual aircraft model with different cost coefficients to fly as safe and cheap as possible</li>
+<li><a href="#Assignments">Choose the optimum aircraft models with lowest-cost route</a></li>
+<li><a href="#Assignments">Design an aircraft with low operation cost</li>
+<li><a href="#Assignments">Design virtual aircraft model with different cost coefficients to fly as safe and cheap as possible</li>
 
 
 
@@ -80,7 +80,7 @@ As a result, path-planning is really important to the aviation industry since it
     typehere3
   </td></tr></table>  
   
-  ####   WONG Dik Hin ()
+  ####   WONG Dik Hin (21071947D)
     
   <table><tr><td>
     typehere4
