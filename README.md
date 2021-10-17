@@ -33,11 +33,11 @@ Except for pilots, ATCs have to arrange flights around the airport
   
 # Programming Tools 
 <pre>
-<li>Python</a>   <img src="Sources\220px-Python-logo-notext.svg.png" width="20" height="20"></li>
+<li>Python</a>   <img src="Sources\220px-Python-logo-notext.svg.png" width="40" height="40"></li>
 
-<li>Github</a>   <img src="Sources\logo_github_icon_143196.png" width="20" height="20"></li>
+<li>Github</a>   <img src="Sources\logo_github_icon_143196.png" width="40" height="40"></li>
 
-<li>Microsoft Visual Studio   <img src="Souces\Visual_Studio_Icon_2019.svg.png" width="20" height="20"></li>
+<li>Microsoft Visual Studio   <img src="Sources\Visual_Studio_Icon_2019.png" width="40" height="40"></li>
 </pre>
 
 <div id="Project Goals">
@@ -48,10 +48,6 @@ Except for pilots, ATCs have to arrange flights around the airport
 <li><a href="#Tasks">Design an aircraft with low operation cost</li>
 <li><a href="#Tasks">Design virtual aircraft model with different cost coefficients to fly as safe and cheap as possible</li>
 
-In our project, we will:
-<li><a href="#Tasks">Choose the optimum aircraft models with lowest-cost route for the aircraft operation under given scenarios</a></li>
-<li><a href="#Tasks">Design the cost of the aircraft operation</li>
-<li><a href="#Tasks">Design a virtual aircraft model with different cost coefficients to fly as safe and cheap as possible</li>
 
 
 <div id="Assignments">
