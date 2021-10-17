@@ -3,7 +3,7 @@
     <li><a href="#About Path Planning">About Path Planning</a></li>
     <li><a href="#Programming Tools">Engineering Tools</a></li>
     <li><a href="#Project Goals">Project Goals</a></li>
-    <li><a href="#Assignments">Assignemnts</a></li>
+    <li><a href="#Assignments">Assignments</a></li>
     <li><a href="#Reflective Essays">Reflective Essays</a></li>
 
   </ol>
