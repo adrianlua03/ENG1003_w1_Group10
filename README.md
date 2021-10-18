@@ -52,7 +52,7 @@ As a result, path-planning is really important to the aviation industry since it
   
 # Assignments
   #### Code
-  "In this project, the group was given the task to edit an A-Star Algorithm code provided by the lecturers.  In this algorithm, however, the group located an error in the calculations for the costs of the fuel-consuming and time-consuming area, specifically in lines 149 and 155 of the original code (a_star_noted.py).  In these calculations, the cost of fuel (C_f) and time (C_t) were not multiplied to the additional trip fuel (ΔFa) and time (ΔTa) required, resulting in a cost a little short of what it is supposed to be.  The group was able to fix this error, allowing for more accurate results."
+  "In this project, the group was given the task to edit an A-Star Algorithm code provided by the lecturers.  In this algorithm, however, the group located an error in the calculations for the costs of the fuel-consuming and time-consuming area, specifically in lines 149 and 155 of the original code (a_star_noted.py).  In these calculations, the cost of fuel (C<sub>f</sub>) and time (C<sub>t</sub>) were not multiplied to the additional trip fuel (ΔF<sub>a</sub>) and time (ΔT<sub>a</sub>) required, resulting in a cost a little short of what it is supposed to be.  The group was able to fix this error, allowing for more accurate results."
   ### Task 1
   
   ### Task 2.1
