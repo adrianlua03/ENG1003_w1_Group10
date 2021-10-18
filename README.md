@@ -4,7 +4,6 @@
     <li><a href="#Programming Tools">Engineering Tools</a></li>
     <li><a href="#Project Goals">Project Goals</a></li>
     <li><a href="#Assignments">Assignments</a></li>
-    <li><a href="#Additional Tasks">Additional Tasks</a></li>
     <li><a href="#Reflective Essays">Reflective Essays</a></li>
 
   </ol>
@@ -58,23 +57,31 @@ Moving outside commercial aviation, path planning is also becoming increasingly 
   
 # Assignments
   
-
-### Code
+<table><tr><td>
+	
+### Code Ammendments
+	
   "In this project, the group was given the task to modify an A-Star Algorithm code provided by the lecturers to match the required obstacles of the group.  In this algorithm, however, the group located an error in the calculations for the costs of the fuel-consuming and time-consuming area; specifically in lines 149 and 155 of the original code (a_star_noted.py).  In these calculations, the cost of fuel (C<sub>f</sub>) and time (C<sub>t</sub>) were not multiplied to the additional trip fuel (ΔF<sub>a</sub>) and time (ΔT<sub>a</sub>) required, resulting in a cost a little short of what it is supposed to be.  The group was able to resolve this error, as shown below."
 
   <img src="Sources\CodeError.jpg">
-    
-  ## Task 1
-  #### Find the PolyU Aircraft Model with the minimum cost for the challenge assigned to our group.
-<table><tr><td>
-    Solution:
-    <li> The 4 PolyU Aircraft Models datas:</li>
-    <img src="Sources\Task 1\Aircraft Models.png">
-    
-    With the following formulae given:
-      <img src="Sources\Task 1\Formulae Cost.png">
-    <img src="Sources\GIFs\AAEFP Task 1 - A380.gif">
 </td></tr></table>
+
+<table><td><tr>
+<h2>Task 1</h2>
+<h4> Find the PolyU Aircraft Model with the minimum cost for the challenge assigned to our group.</h4>
+
+<tr>The given features of the 4 PolyU Aircraft Model are as follows:
+	<img src="Sources\Task 1\Aircraft Models.png"></tr>
+
+<tr><li>By using the following formulae given:</tr></li>
+<tr><img src="Sources\Task 1\Formulae Cost.png" width="250" height="25"></tr>
+<hr>
+<tr><i>Solution:</i></tr>
+<li>Excel is utilized to generate the following table:</li>
+<img src="
+	
+<img src="Sources\GIFs\AAEFP Task 1 - A380.gif" width="412" height="310">
+	</tr></td></table>
   
 	
   ## Task 2.1
@@ -89,15 +96,7 @@ Moving outside commercial aviation, path planning is also becoming increasingly 
  
   #### Design a minus cost area for the challenge assigned to our group.
 
-	
-	
-
-<div id="Additional Tasks">
-	
-# Additional Tasks
-
-## Adding Checkpoints
-	
+  
 <div id="Reflective Essays">
   
 # Reflective Essays
