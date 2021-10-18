@@ -43,8 +43,8 @@ As a result, path-planning is really important to the aviation industry since it
 # Project Goals
 
 <li><a href="#Task 1">Choose the optimum aircraft models with lowest-cost route</a></li>
-<li><a href="#Task 2">Design an aircraft with low operation cost</li>
-<li><a href="#Task 3">Design virtual aircraft model with different cost coefficients to fly as safe and cheap as possible</li>
+<li><a href="#Task 2">Design virtual aircraft model with different cost coefficients to fly as safe and cheap as possible</li>
+<li><a href="#Task 3">Design a minus cost area</li>
 
 
 
@@ -72,7 +72,7 @@ As a result, path-planning is really important to the aviation industry since it
   <img src="Sources\GIFs\AAEFP Task 2 - 2 Var.gif">
   
   ### Task 3
-  #### 
+  #### Design a minus cost area for the challenge assigned to our group.
   
 <div id="Reflective Essays">
   
@@ -81,8 +81,7 @@ As a result, path-planning is really important to the aviation industry since it
   ####   LUA, Adrian Shalom (21093985D)
   
   <table><tr><td>
-    	
-
+    typehere1
   </td></tr></table>  
   
   ####   ANG Jershon Ainsleigh Entote （21094022D）  
