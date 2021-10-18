@@ -61,26 +61,8 @@ As a result, path-planning is really important to the aviation industry since it
 ### Code
   "In this project, the group was given the task to modify an A-Star Algorithm code provided by the lecturers to match the required obstacles of the group.  In this algorithm, however, the group located an error in the calculations for the costs of the fuel-consuming and time-consuming area, specifically in lines 149 and 155 of the original code (a_star_noted.py).  In these calculations, the cost of fuel (C<sub>f</sub>) and time (C<sub>t</sub>) were not multiplied to the additional trip fuel (ΔF<sub>a</sub>) and time (ΔT<sub>a</sub>) required, resulting in a cost a little short of what it is supposed to be.  The group was able to resolve this error, as shown below."
 
-  
-  
-  ### Task 1
-  #### Find the PolyU Aircraft Model with the minimum cost for the challenge assigned to our group.
-<table><tr><td>
-    Solution:
-    <li> The 4 PolyU Aircraft Models datas:</li>
-    <img src="Sources\Task 1\Aircraft Models.png">
+  <img src="Sources\CodeError.jpg">
     
-    With the following formulae given:
-      <img src="Sources\Task 1\Formulae Cost.png">
-    <img src="Sources\GIFs\AAEFP Task 1 - A380.gif">
-</td></tr></table>
-
-  
-<img src="Sources\CodeError.jpg">
-  
-
-
-  
   ## Task 1
   #### Find the PolyU Aircraft Model with the minimum cost for the challenge assigned to our group.
 <table><tr><td>
@@ -93,20 +75,17 @@ As a result, path-planning is really important to the aviation industry since it
     <img src="Sources\GIFs\AAEFP Task 1 - A380.gif">
 </td></tr></table>
   
+	
   ## Task 2.1
   
   #### Find the PolyU Aircraft Model that achieve minimum cost for the challenge assigned to our group.
   <img src="Sources\GIFs\AAEFP Task 2 - 2 Var.gif">
   
   ## Task 2.2
-  
+ 
+	
   ## Task 3
-  #### 
-
-  #### Find the PolyU Aircraft Model that achieve minimum cost for the challenge assigned to our group.
-  <img src="Sources\GIFs\AAEFP Task 2 - 2 Var.gif">
-  
-  ### Task 3
+ 
   #### Design a minus cost area for the challenge assigned to our group.
 
   
