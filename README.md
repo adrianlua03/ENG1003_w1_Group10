@@ -4,6 +4,7 @@
     <li><a href="#Programming Tools">Engineering Tools</a></li>
     <li><a href="#Project Goals">Project Goals</a></li>
     <li><a href="#Assignments">Assignments</a></li>
+    <li><a href="#Additional Tasks">Additional Tasks</a></li>
     <li><a href="#Reflective Essays">Reflective Essays</a></li>
 
   </ol>
@@ -92,7 +93,11 @@ Moving outside commercial aviation, path planning is also becoming increasingly 
  
   #### Design a minus cost area for the challenge assigned to our group.
 
-  
+									   
+<div id="Additional Tasks">									   
+# Additional Tasks
+## Adding Checkpoints
+			  
 <div id="Reflective Essays">
   
 # Reflective Essays
