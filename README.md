@@ -94,7 +94,8 @@ Moving outside commercial aviation, path planning is also becoming increasingly 
   #### Design a minus cost area for the challenge assigned to our group.
 
 									   
-<div id="Additional Tasks">									   
+<div id="Additional Tasks">			
+			  
 # Additional Tasks
 ## Adding Checkpoints
 			  
