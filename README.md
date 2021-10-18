@@ -13,14 +13,14 @@
   
 # About Path Planning 
 
-"Path planning is a process to identify or predict an object's ability to move from the origin to the destination.
+Path planning can be characterized as a process to identify or predict an object's ability to move from the origin to the destination. With recent advancements in technology and digitalization, path planning has become exceptionally important in various industries. Path planning has been commonly used in aviation, robotics, computer gaming, and other transport-based industries. 
 
+In commercial aviation, pilots have to do path planning before every flight in order to make sure that the flight route is possible to run through. Without a proper flight plan, the pilot will not be able to identify where the aircraft must fly in order to fly within optimal conditions. For example, without proper path planning, the pilot will not be able to identify regions with high turbulent wind that the aircraft may want to avoid. As a result, during this turbulent phase, the aircraft may experience significant drag increases, especially frictional and pressure drag. These problems may quickly compound and cause more problems, and may even cause some flight parameters to move outside the flight envelope. 
 
-It is commonly used in aviation, robotics and computer games.
-In aviation, pilots have to do path planning before every flight in order to make sure the flight route is possible to run through.
+Aside from pilots, ATCs utilize path planning for commercial aviation as well, because they have to arrange flights around and in the airport too. Because of this, path-planning is really important to the aviation industry since it can ensure our safety and reduce flight costs.
 
-Except for pilots, ATCs have to arrange flights around and in the airport too.
-As a result, path-planning is really important to the aviation industry since it can ensure our safety and reduce flight costs."
+Moving outside commercial aviation, path planning is also becoming increasingly important in future aeronautical applications such as Unmanned Aerial Vehicles, Drones, and Robotic Aircraft. Proper path planning algorithms must be made to ensure that these non-controlled machines can efficiently do the required work without manual operation. 
+
 
 
 
