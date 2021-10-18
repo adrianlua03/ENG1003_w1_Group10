@@ -1,4 +1,4 @@
-<details open="open">
+<details open="open" align="center">
   <summary><h4 style="display: inline-block"><pre>Table of Contents    <i>--(Toggle)</i></pre></h4></summary>  
     <li><a href="#About Path Planning">About Path Planning</a></li>
     <li><a href="#Programming Tools">Engineering Tools</a></li>
@@ -14,6 +14,7 @@
 <div id="About Path Planning">
 
 <h1>About Path Planning</h1>
+<p align="center">
 <tr><img src="Sources\March-World-small.gif" width="500" height="300" class="center">
 
 
@@ -66,24 +67,26 @@ Moving outside commercial aviation, path planning is also becoming increasingly 
 ### Code Ammendments
 	
   "In this project, the group was given the task to modify an A-Star Algorithm code provided by the lecturers to match the required obstacles of the group.  In this algorithm, however, the group located an error in the calculations for the costs of the fuel-consuming and time-consuming area; specifically in lines 149 and 155 of the original code (a_star_noted.py).  In these calculations, the cost of fuel (C<sub>f</sub>) and time (C<sub>t</sub>) were not multiplied to the additional trip fuel (ΔF<sub>a</sub>) and time (ΔT<sub>a</sub>) required, resulting in a cost a little short of what it is supposed to be.  The group was able to resolve this error, as shown below."
+<img src="Sources\CodeError.jpg">
 
-  <img src="Sources\CodeError.jpg">
 </td></tr></table>
-
-<h2>Task 1</h2>
-<h4> Find the PolyU Aircraft Model with the minimum cost for the challenge assigned to our group.</h4>
-
+<hr>
+<table><tr><td>
+<h2>Task 1: </h2>
+<table><tr><td>Find the PolyU Aircraft Model with the minimum cost for the challenge assigned to our group.</td></tr></table>
 <tr>The given features of the 4 PolyU Aircraft Model are as follows:
-	<img src="Sources\Task 1\Aircraft Models.png"></tr>
-
+<img src="Sources\Task 1\Aircraft Models.png"></tr>
 <tr><li>By using the following formulae given:</tr></li>
 <tr><img src="Sources\Task 1\Formulae Cost.png" width="250" height="25"></tr>
-<br>
+</td></tr></table>
+<hr>
 <table><td><tr>
-<tr><i>Solution:</i></tr>
-<li>Excel is utilized to generate the following table:</li>
+<tr><h3><i>Solution:</i></tr></h3>
+<li>Excel is being utilized to help generate the following table:</li>
 <img src="Week 6 Compulsory Tasks\Task 1\Cost for each plane.png"><br>
-<a href="https://github.com/adrianlua03/ENG1003_w1_Group10/blob/main/Week%206%20Compulsory%20Tasks/Task%201/Cost%20for%20each%20Plane.xlsx?raw=true">Click here for  Excel Raw File</a>	<br>
+<a href="https://github.com/adrianlua03/ENG1003_w1_Group10/blob/main/Week%206%20Compulsory%20Tasks/Task%201/Cost%20for%20each%20Plane.xlsx?raw=true">Click here for  Excel Raw File</a>	<br><br>
+∴ As can be seen, highlighted in green, the PolyU-A380 scores the lowest Goal Cost under the consideration with the given constraints. It is being animated below:
+<br>
 <img src="Sources\GIFs\AAEFP Task 1 - A380.gif" width="412" height="310">
 </tr></td></table>
 
@@ -102,8 +105,11 @@ Moving outside commercial aviation, path planning is also becoming increasingly 
   
 
 <div id="Additional Tasks">
+	
 # Additional Task
-	## Adding Checkpoint
+	
+	
+#### Adding Checkpoint
 
   
 <div id="Reflective Essays">
