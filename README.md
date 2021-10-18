@@ -4,15 +4,17 @@
     <li><a href="#Programming Tools">Engineering Tools</a></li>
     <li><a href="#Project Goals">Project Goals</a></li>
     <li><a href="#Assignments">Assignments</a></li>
-    <li><a href="#Additional Tasks">Additional Tasks</a></li>
     <li><a href="#Reflective Essays">Reflective Essays</a></li>
 
   </ol>
 </details>
 
+<hr>
 <div id="About Path Planning">
-  
-# About Path Planning 
+
+<h1>About Path Planning</h1>
+<tr><img src="Sources\March-World-small.gif" width="500" height="300" class="center">
+
 
 Path planning can be characterized as a process to identify or predict an object's ability to move from the origin to the destination. With recent advancements in technology and digitalization, path planning has become exceptionally important in various industries. Path planning has been commonly used in aviation, robotics, computer gaming, and other transport-based industries. 
 
@@ -20,9 +22,9 @@ In commercial aviation, pilots have to do path planning before every flight in o
 
 Aside from pilots, ATCs utilize path planning for commercial aviation as well, because they have to arrange flights around and in the airport too. Because of this, path-planning is really important to the aviation industry since it can ensure our safety and reduce flight costs.
 
-Moving outside commercial aviation, path planning is also becoming increasingly important in future aeronautical applications such as Unmanned Aerial Vehicles, Drones, and Robotic Aircraft. Proper path planning algorithms must be made to ensure that these non-controlled machines can efficiently do the required work without manual operation. 
+Moving outside commercial aviation, path planning is also becoming increasingly important in future aeronautical applications such as Unmanned Aerial Vehicles, Drones, and Robotic Aircraft. Proper path planning algorithms must be made to ensure that these non-controlled machines can efficiently do the required work without manual operation. </tr>
 
-
+<hr>
 
 
 
@@ -44,6 +46,10 @@ Moving outside commercial aviation, path planning is also becoming increasingly 
 # Project Goals
 
 <li><a href="#Task 1">Choose the optimum aircraft models with lowest-cost route</a></li>
+
+<li><a href="#Task 2">Design an aircraft with low operation cost</li>
+<li><a href="#Task 3">Design virtual aircraft model with different cost coefficients to fly as safe and cheap as possible</li>
+
 <li><a href="#Task 2">Design virtual aircraft model with different cost coefficients to fly as safe and cheap as possible</li>
 <li><a href="#Task 3">Design a minus cost area</li>
 
@@ -63,7 +69,6 @@ Moving outside commercial aviation, path planning is also becoming increasingly 
   <img src="Sources\CodeError.jpg">
 </td></tr></table>
 
-<table><td><tr>
 <h2>Task 1</h2>
 <h4> Find the PolyU Aircraft Model with the minimum cost for the challenge assigned to our group.</h4>
 
@@ -72,14 +77,15 @@ Moving outside commercial aviation, path planning is also becoming increasingly 
 
 <tr><li>By using the following formulae given:</tr></li>
 <tr><img src="Sources\Task 1\Formulae Cost.png" width="250" height="25"></tr>
-<hr>
+<br>
+<table><td><tr>
 <tr><i>Solution:</i></tr>
 <li>Excel is utilized to generate the following table:</li>
-<img src="
-	
+<img src="Week 6 Compulsory Tasks\Task 1\Cost for each plane.png"><br>
+<a href="https://github.com/adrianlua03/ENG1003_w1_Group10/blob/main/Week%206%20Compulsory%20Tasks/Task%201/Cost%20for%20each%20Plane.xlsx?raw=true">Click here for  Excel Raw File</a>	<br>
 <img src="Sources\GIFs\AAEFP Task 1 - A380.gif" width="412" height="310">
-	</tr></td></table>
-  
+</tr></td></table>
+
 	
   ## Task 2.1
   
@@ -93,12 +99,7 @@ Moving outside commercial aviation, path planning is also becoming increasingly 
  
   #### Design a minus cost area for the challenge assigned to our group.
 
-									   
-<div id="Additional Tasks">			
-			  
-# Additional Tasks
-## Adding Checkpoints
-			  
+  
 <div id="Reflective Essays">
   
 # Reflective Essays
