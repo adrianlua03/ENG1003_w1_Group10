@@ -52,7 +52,7 @@ As a result, path-planning is really important to the aviation industry since it
   
 # Assignments
   
-  ### Task 1 - 
+  ### Task 1
   
   ### Task 2
   #### 4 Constraints with 2 Variables
