@@ -42,9 +42,9 @@ As a result, path-planning is really important to the aviation industry since it
   
 # Project Goals
 
-<li><a href="#Assignments">Choose the optimum aircraft models with lowest-cost route</a></li>
-<li><a href="#Assignments">Design an aircraft with low operation cost</li>
-<li><a href="#Assignments">Design virtual aircraft model with different cost coefficients to fly as safe and cheap as possible</li>
+<li><a href="#Task 1">Choose the optimum aircraft models with lowest-cost route</a></li>
+<li><a href="#Task 2">Design an aircraft with low operation cost</li>
+<li><a href="#Task 3">Design virtual aircraft model with different cost coefficients to fly as safe and cheap as possible</li>
 
 
 
@@ -65,9 +65,12 @@ As a result, path-planning is really important to the aviation industry since it
       <img src="Sources\Task 1\Formulae Cost.png">
     <img src="Sources\GIFs\AAEFP Task 1 - A380.gif">
 </td></tr></table>
+  
   ### Task 2
+  
   #### Find the PolyU Aircraft Model that achieve minimum cost for the challenge assigned to our group.
   <img src="Sources\GIFs\AAEFP Task 2 - 2 Var.gif">
+  
   ### Task 3
   #### 
   
