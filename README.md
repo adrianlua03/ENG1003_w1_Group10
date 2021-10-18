@@ -1,28 +1,30 @@
-<details open="open"><summary><h4 style="display: inline-block"><pre>Table of Contents    <i>--(Toggle)</i></pre></h4></summary>  
+<details open="open" align="center">
+  <summary><h4 style="display: inline-block"><pre>Table of Contents    <i>--(Toggle)</i></pre></h4></summary>  
     <li><a href="#About Path Planning">About Path Planning</a></li>
     <li><a href="#Programming Tools">Engineering Tools</a></li>
     <li><a href="#Project Goals">Project Goals</a></li>
     <li><a href="#Assignments">Assignments</a></li>
+    <li><a href="#Additional Tasks">Additional Tasks</a></li>
     <li><a href="#Reflective Essays">Reflective Essays</a></li>
+
   </ol>
 </details>
 
 <hr>
 <div id="About Path Planning">
 
-<p align="center">
 <h1>About Path Planning</h1>
-</p>
 <p align="center">
 <tr><img src="Sources\March-World-small.gif" width="500" height="300" class="center">
-<br>
+
+
 Path planning can be characterized as a process to identify or predict an object's ability to move from the origin to the destination. With recent advancements in technology and digitalization, path planning has become exceptionally important in various industries. Path planning has been commonly used in aviation, robotics, computer gaming, and other transport-based industries. 
-<p align="center">
+
 In commercial aviation, pilots have to do path planning before every flight in order to make sure that the flight route is possible to run through. Without a proper flight plan, the pilot will not be able to identify where the aircraft must fly in order to fly within optimal conditions. For example, without proper path planning, the pilot will not be able to identify regions with high turbulent wind that the aircraft may want to avoid. As a result, during this turbulent phase, the aircraft may experience significant drag increases, especially frictional and pressure drag. These problems may quickly compound and cause more problems, and may even cause some flight parameters to move outside the flight envelope. 
-<p align="center">
+
 Aside from pilots, ATCs utilize path planning for commercial aviation as well, because they have to arrange flights around and in the airport too. Because of this, path-planning is really important to the aviation industry since it can ensure our safety and reduce flight costs.
-<p align="center">
-Moving outside commercial aviation, path planning is also becoming increasingly important in future aeronautical applications such as Unmanned Aerial Vehicles, Drones, and Robotic Aircraft. Proper path planning algorithms must be made to ensure that these non-controlled machines can efficiently do the required work without manual operation. </tr></p>
+
+Moving outside commercial aviation, path planning is also becoming increasingly important in future aeronautical applications such as Unmanned Aerial Vehicles, Drones, and Robotic Aircraft. Proper path planning algorithms must be made to ensure that these non-controlled machines can efficiently do the required work without manual operation. </tr>
 
 <hr>
 
@@ -38,7 +40,7 @@ Moving outside commercial aviation, path planning is also becoming increasingly 
 
 <li>Github</a>   <img src="Sources\logo_github_icon_143196.png" width="40" height="40"></li>
 
-<li>Microsoft Visual Studio   <img src="Sources\Visual_Studio_Icon_2019.svg.png" width="40" height="40"></li>
+<li>Microsoft Visual Studio   <img src="Sources\Visual_Studio_Icon_2019.png" width="40" height="40"></li>
 </pre>
 
 <div id="Project Goals">
@@ -68,21 +70,23 @@ Moving outside commercial aviation, path planning is also becoming increasingly 
 <img src="Sources\CodeError.jpg">
 
 </td></tr></table>
-
-<h2>Task 1</h2>
-<h4> Find the PolyU Aircraft Model with the minimum cost for the challenge assigned to our group.</h4>
-
+<hr>
+<table><tr><td>
+<h2>Task 1: </h2>
+<table><tr><td>Find the PolyU Aircraft Model with the minimum cost for the challenge assigned to our group.</td></tr></table>
 <tr>The given features of the 4 PolyU Aircraft Model are as follows:
-	<img src="Sources\Task 1\Aircraft Models.png"></tr>
-
+<img src="Sources\Task 1\Aircraft Models.png"></tr>
 <tr><li>By using the following formulae given:</tr></li>
 <tr><img src="Sources\Task 1\Formulae Cost.png" width="250" height="25"></tr>
-<br>
+</td></tr></table>
+<hr>
 <table><td><tr>
-<tr><i>Solution:</i></tr>
-<li>Excel is utilized to generate the following table:</li>
+<tr><h3><i>Solution:</i></tr></h3>
+<li>Excel is being utilized to help generate the following table:</li>
 <img src="Week 6 Compulsory Tasks\Task 1\Cost for each plane.png"><br>
-<a href="https://github.com/adrianlua03/ENG1003_w1_Group10/blob/main/Week%206%20Compulsory%20Tasks/Task%201/Cost%20for%20each%20Plane.xlsx?raw=true">Click here for  Excel Raw File</a>	<br>
+<a href="https://github.com/adrianlua03/ENG1003_w1_Group10/blob/main/Week%206%20Compulsory%20Tasks/Task%201/Cost%20for%20each%20Plane.xlsx?raw=true">Click here for  Excel Raw File</a>	<br><br>
+∴ As can be seen, highlighted in green, the PolyU-A380 scores the lowest Goal Cost under the consideration with the given constraints. It is being animated below:
+<br>
 <img src="Sources\GIFs\AAEFP Task 1 - A380.gif" width="412" height="310">
 </tr></td></table>
 
@@ -98,6 +102,14 @@ Moving outside commercial aviation, path planning is also becoming increasingly 
   ## Task 3
  
   #### Design a minus cost area for the challenge assigned to our group.
+  
+
+<div id="Additional Tasks">
+	
+# Additional Task
+	
+	
+#### Adding Checkpoint
 
   
 <div id="Reflective Essays">
