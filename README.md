@@ -52,11 +52,24 @@ As a result, path-planning is really important to the aviation industry since it
   
 # Assignments
   
+  
+  
   ### Task 1
-  
+  #### Find the PolyU Aircraft Model with the minimum cost for the challenge assigned to our group.
+<table><tr><td>
+    Solution:
+    <li> The 4 PolyU Aircraft Models datas:</li>
+    <img src="Sources\Task 1\Aircraft Models.png">
+    
+    With the following formulae given:
+      <img src="Sources\Task 1\Formulae Cost.png">
+    <img src="Sources\GIFs\AAEFP Task 1 - A380.gif">
+</td></tr></table>
   ### Task 2
-  
+  #### Find the PolyU Aircraft Model that achieve minimum cost for the challenge assigned to our group.
+  <img src="Sources\GIFs\AAEFP Task 2 - 2 Var.gif">
   ### Task 3
+  #### 
   
 <div id="Reflective Essays">
   
