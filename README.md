@@ -26,7 +26,7 @@ Aside from pilots, ATCs utilize path planning for commercial aviation as well, b
 
 Moving outside commercial aviation, path planning is also becoming increasingly important in future aeronautical applications such as Unmanned Aerial Vehicles, Drones, and Robotic Aircraft. Proper path planning algorithms must be made to ensure that these non-controlled machines can efficiently do the required work without manual operation. </tr>
 
-<hr>
+<hr><br><br>
 
 
 
@@ -42,7 +42,7 @@ Moving outside commercial aviation, path planning is also becoming increasingly 
 
 <li>Microsoft Visual Studio   <img src="Sources\Visual_Studio_Icon_2019.png" width="40" height="40"></li>
 </pre>
-
+<br><br>
 <div id="Project Goals">
   
 # Project Goals
@@ -57,7 +57,7 @@ Moving outside commercial aviation, path planning is also becoming increasingly 
 
 
 
-
+<br><br>
 <div id="Assignments">
   
 # Assignments
@@ -81,29 +81,44 @@ Moving outside commercial aviation, path planning is also becoming increasingly 
 </td></tr></table>
 <hr>
 <table><td><tr>
-<tr><h3><i>Solution:</i></tr></h3>
+<tr><h4><i>Solution:</i></tr></h4>
 <li>Excel is being utilized to help generate the following table:</li>
 <img src="Week 6 Compulsory Tasks\Task 1\Cost for each plane.png"><br>
 <a href="https://github.com/adrianlua03/ENG1003_w1_Group10/blob/main/Week%206%20Compulsory%20Tasks/Task%201/Cost%20for%20each%20Plane.xlsx?raw=true">Click here for  Excel Raw File</a>	<br><br>
 ∴ As can be seen, highlighted in green, the PolyU-A380 scores the lowest Goal Cost under the consideration with the given constraints. It is being animated below:
 <br>
+	<p align="center">
 <img src="Sources\GIFs\AAEFP Task 1 - A380.gif" width="412" height="310">
 </tr></td></table>
+<hr>
+<table><tr><td>
+	<h2>Task 2</h2>
+<table><tr><td>Find the PolyU Aircraft Model that achieve minimum cost for the challenge assigned to our group.
+</td></tr></table>
+	</td></tr></table>
 
-	
-  ## Task 2.1
+<pre><strong>2.1 | 4 constraints with 2 variables</strong><br></pre>
+<p align="center">
+<img src="Sources\GIFs\AAEFP Task 2 - 2 Var.gif" width="412" height="310"></li>
   
-  #### Find the PolyU Aircraft Model that achieve minimum cost for the challenge assigned to our group.
-  <img src="Sources\GIFs\AAEFP Task 2 - 2 Var.gif" width="412" height="310"></li>
-  
-  ## Task 2.2
+<pre><strong>2.2 | 4 constraints with 6 variables</strong><br></pre>
+<p align="center">
+<img src="Sources\GIFs\AAEFP Task 2 - 6 Var.gif" width="412" height="310">
  
-	
-  ## Task 3
- 
+<hr>
+<table><tr><td>
+	<h2>Task 3</h2>
+<table><tr><td>Design a new cost area that can reduce the cost of the route.
+</td></tr></table>
+	<p align="center">
+	</td></tr></table>
+<p align="center">
+<img src="Sources\GIFs\AAEFP Task 3.gif" width="412" height="310">
+<hr>
+
   #### Design a minus cost area for the challenge assigned to our group.
-  
 
+<br><br>
 <div id="Additional Tasks">
 	
 # Additional Task
@@ -111,7 +126,7 @@ Moving outside commercial aviation, path planning is also becoming increasingly 
 	
 #### Adding Checkpoint
 
-  
+<br><br>
 <div id="Reflective Essays">
   
 # Reflective Essays
