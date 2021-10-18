@@ -70,15 +70,16 @@ Moving outside commercial aviation, path planning is also becoming increasingly 
 <img src="Sources\CodeError.jpg">
 
 </td></tr></table>
-<hr>
+
 <table><tr><td>
 <h2>Task 1: </h2>
 <table><tr><td>Find the PolyU Aircraft Model with the minimum cost for the challenge assigned to our group.</td></tr></table>
 <tr>The given features of the 4 PolyU Aircraft Model are as follows:
-<img src="Sources\Task 1\Aircraft Models.png"></tr>
+<img src="Sources\Task 1\Aircraft Models.png"></tr><br><br>
 <tr><li>By using the following formulae given:</tr></li>
 <tr><img src="Sources\Task 1\Formulae Cost.png" width="250" height="25"></tr>
 </td></tr></table>
+
 <hr>
 <table><td><tr>
 <tr><h4><i>Solution:</i></tr></h4>
@@ -96,7 +97,7 @@ Moving outside commercial aviation, path planning is also becoming increasingly 
 <table><tr><td>Find the PolyU Aircraft Model that achieve minimum cost for the challenge assigned to our group.
 </td></tr></table>
 	</td></tr></table>
-
+<hr>
 <pre><strong>2.1 | 4 constraints with 2 variables</strong><br></pre>
 <p align="center">
 <img src="Sources\GIFs\AAEFP Task 2 - 2 Var.gif" width="412" height="310"></li>
