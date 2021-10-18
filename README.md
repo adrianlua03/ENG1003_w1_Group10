@@ -39,7 +39,7 @@ Moving outside commercial aviation, path planning is also becoming increasingly 
 
 <li>Github</a>   <img src="Sources\logo_github_icon_143196.png" width="40" height="40"></li>
 
-<li>Microsoft Visual Studio   <img src="Sources\Visual_Studio_Icon_2019.png" width="40" height="40"></li>
+<li>Microsoft Visual Studio   <img src="Sources\Visual_Studio_Icon_2019.svg.png" width="40" height="40"></li>
 </pre>
 
 <div id="Project Goals">
