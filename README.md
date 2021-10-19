@@ -77,7 +77,7 @@ Moving outside commercial aviation, path planning is also becoming increasingly 
 <tr>The given features of the 4 PolyU Aircraft Model are as follows:
 <img src="Sources\Task 1\Aircraft Models.png"></tr><br><br>
 <tr><li>By using the following formulae given:</tr></li>
-<tr><img src="Sources\Task 1\Formulae Cost.png" width="250" height="25"></tr>
+<tr><img src="Sources\Task 1\CostFormula.png" width="674.34" height="62.5"></tr>
 </td></tr></table>
 
 <hr>
