@@ -123,7 +123,7 @@ With this in mind, it can be concluded that to provide the minimum total cost, t
 	
 Results are as shown below:
 	
-<img src="Sources\Task3\Task3Results.png">	
+<img src="Sources\Task3\Task3Result.png">	
 	
 <hr>
 <table><tr><td>
