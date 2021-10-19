@@ -77,7 +77,7 @@ Moving outside commercial aviation, path planning is also becoming increasingly 
 <tr>The given features of the 4 PolyU Aircraft Model are as follows:
 <img src="Sources\Task 1\Aircraft Models.png"></tr><br><br>
 <tr><li>By using the following formulae given:</tr></li>
-<tr><img src="Sources\Task 1\CostFormula.png" width="674.34" height="62.5"></tr>
+<tr><img src="Sources\Task 1\CostFormula.png" width="674.34" height="41.87"></tr>
 
 With
 	<tr><li>D<sub>Total</sub> = Total Distance Travelled</li></tr>
@@ -122,10 +122,10 @@ With this in mind, it can be concluded that to provide the minimum total cost, t
 ### b. Results
 	
 The path plan is as shown below:  
-
+<br />
 <img src="Sources\GIFs\AAEFP Task 2 - 6 Var.gif" width="309" height="232.5">
 	
-	
+
 The 6 chosen variables (not including C<sub>C</sub>) and the cost it amounted to are as shown below:
 	
 <img src="Sources\Task 3\Task3Result.png" width="626.25" height="92.25">	
