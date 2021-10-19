@@ -131,7 +131,11 @@ With
 <div id="Additional Tasks">
 	
 # Additional Task
+<table><tr><td>
 <h2>Adding Checkpoints: </h2>
+	
+	
+</td></tr></table>
 
 <br><br>
 <div id="Reflective Essays">
