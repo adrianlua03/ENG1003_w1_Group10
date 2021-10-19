@@ -98,12 +98,13 @@ With
 <img src="Sources\GIFs\AAEFP Task 1 - A380.gif" width="412" height="310">
 </tr></td></table>
 <hr>
-<table><tr><td>
-	<h2>Task 2</h2>
+
+
+## Task 2
 <table><tr><td>Find the PolyU Aircraft Model that achieve minimum cost for the challenge assigned to our group.
 </td></tr></table>
-	</td></tr></table>
-<hr>
+	
+
 <pre><strong>2.1 | 4 constraints with 2 variables</strong><br></pre>
 <p align="center">
 <img src="Sources\GIFs\AAEFP Task 2 - 2 Var.gif" width="412" height="310"></li>
@@ -112,6 +113,14 @@ With
 <p align="center">
 <img src="Sources\GIFs\AAEFP Task 2 - 6 Var.gif" width="412" height="310">
  
+### a. Methodology
+	"Unlike in task 2.1, a graph would not be able to provide an answer as there are six missing variables in this task.  Instead, pure analysis was used to solve this.  Just like in tasks 1 and 2.1, it can be seen that the lower the values of the given variables are, the lower the total cost would be.  This makes sense because, as shown on the given formula above, the total cost is an additive of and directly proportional to the given variables.  Because of this, the higher the variables are, the higher the cost, and vice versa.
+	
+	Additionally, the given constraints made the analysis simpler because they set a minimum value to the inequalities of the variables.  The same reasoning, as stated earlier, can apply in this situation, where the higher the variables are, the higher its result of the inequality as it is an additive of the products of specific variables.  
+	
+	With this in mind, it can be concluded that to provide the minimum total cost, the result of the inequalities would have to be either equal or close to the set minimum.  Using the method of trial and error, it can be seen that the further the variables are from each other (e.g. C<sub>F</sub> & C<sub>T</sub>) the lower the result of the cost.  This means that the possible values of the variables should only be either 1 or 9.  When substituted to the variables, however, the first inequality is not satisfied.  To solve this, two of the cost and trip variable pairs must be replaced with 2 and 8, instead of 1 and 9.  From this, it can be seen that all inequalities are satisfied and are equal or close to its minimum.  Results are as shown below:
+	
+	
 <hr>
 <table><tr><td>
 	<h2>Task 3</h2>
