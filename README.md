@@ -110,8 +110,6 @@ With
 <img src="Sources\GIFs\AAEFP Task 2 - 2 Var.gif" width="412" height="310"></li>
   
 <pre><strong>2.2 | 4 constraints with 6 variables</strong><br></pre>
-<p align="center">
-<img src="Sources\GIFs\AAEFP Task 2 - 6 Var.gif" width="309" height="232.5">
  
 ### a. Methodology
 	
@@ -121,11 +119,14 @@ The given constraints also made the analysis simpler because they set a minimum 
 	
 With this in mind, it can be concluded that to provide the minimum total cost, the result of the inequalities would have to be either equal or close to the set minimum.  Using the method of trial and error, it can be seen that the further the values of the variables (e.g. C<sub>F</sub> & C<sub>T</sub>) are away from each other, the lower the result of the cost.  This means that the possible values of the variables should only be either 1 or 9.  When substituted to the variables, however, the first inequality is not satisfied.  To solve this, two of the variables must be replaced with 2 and 8 instead of 1 and 9; in this case, ΔF and ΔT were replaced.  From this, it can be seen that all inequalities are satisfied and are equal or close to its minimum.  
 	
-Results are as shown below:
+### b. Results
+	
+The path plan and cost is shown below:  
+
+<img src="Sources\GIFs\AAEFP Task 2 - 6 Var.gif" width="309" height="232.5">
 	
 <img src="Sources\Task 3\Task3Result.png">	
 	
-### b. Results
 
 ### c. Discussion
 	
