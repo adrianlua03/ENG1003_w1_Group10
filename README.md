@@ -126,12 +126,12 @@ With
   #### Design a minus cost area for the challenge assigned to our group.
 
 <br><br>
+
+
 <div id="Additional Tasks">
 	
 # Additional Task
-	
-	
-#### Adding Checkpoint
+<h2>Adding Checkpoints: </h2>
 
 <br><br>
 <div id="Reflective Essays">
