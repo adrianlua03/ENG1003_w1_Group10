@@ -1,27 +1,32 @@
-<details open="open">
+<details open="open" align="center">
   <summary><h4 style="display: inline-block"><pre>Table of Contents    <i>--(Toggle)</i></pre></h4></summary>  
     <li><a href="#About Path Planning">About Path Planning</a></li>
     <li><a href="#Programming Tools">Engineering Tools</a></li>
     <li><a href="#Project Goals">Project Goals</a></li>
     <li><a href="#Assignments">Assignments</a></li>
+    <li><a href="#Additional Tasks">Additional Tasks</a></li>
     <li><a href="#Reflective Essays">Reflective Essays</a></li>
 
   </ol>
 </details>
-
+<br><br>
+<hr>
 <div id="About Path Planning">
-  
-# About Path Planning 
 
-"Path planning is a process to identify or predict an object's ability to move from the origin to the destination.
+<h1>About Path Planning</h1>
+<p align="center">
+<tr><img src="Sources\March-World-small.gif" width="500" height="300" class="center">
 
 
-It is commonly used in aviation, robotics and computer games.
-In aviation, pilots have to do path planning before every flight in order to make sure the flight route is possible to run through.
+Path planning can be characterized as a process to identify or predict an object's ability to move from the origin to the destination. With recent advancements in technology and digitalization, path planning has become exceptionally important in various industries. Path planning has been commonly used in aviation, robotics, computer gaming, and other transport-based industries. 
 
-Except for pilots, ATCs have to arrange flights around and in the airport too.
-As a result, path-planning is really important to the aviation industry since it can ensure our safety and reduce flight costs."
+In commercial aviation, pilots have to do path planning before every flight in order to make sure that the flight route is possible to run through. Without a proper flight plan, the pilot will not be able to identify where the aircraft must fly in order to fly within optimal conditions. For example, without proper path planning, the pilot will not be able to identify regions with high turbulent wind that the aircraft may want to avoid. As a result, during this turbulent phase, the aircraft may experience significant drag increases, especially frictional and pressure drag. These problems may quickly compound and cause more problems, and may even cause some flight parameters to move outside the flight envelope. 
 
+Aside from pilots, ATCs utilize path planning for commercial aviation as well, because they have to arrange flights around and in the airport too. Because of this, path-planning is really important to the aviation industry since it can ensure our safety and reduce flight costs.
+
+Moving outside commercial aviation, path planning is also becoming increasingly important in future aeronautical applications such as Unmanned Aerial Vehicles, Drones, and Robotic Aircraft. Proper path planning algorithms must be made to ensure that these non-controlled machines can efficiently do the required work without manual operation. </tr>
+
+<hr><br><br>
 
 
 
@@ -37,7 +42,7 @@ As a result, path-planning is really important to the aviation industry since it
 
 <li>Microsoft Visual Studio   <img src="Sources\Visual_Studio_Icon_2019.png" width="40" height="40"></li>
 </pre>
-
+<br><br>
 <div id="Project Goals">
   
 # Project Goals
@@ -52,43 +57,87 @@ As a result, path-planning is really important to the aviation industry since it
 
 
 
-
+<br><br>
 <div id="Assignments">
   
 # Assignments
   
-
-### Code
-  "In this project, the group was given the task to modify an A-Star Algorithm code provided by the lecturers to match the required obstacles of the group.  In this algorithm, however, the group located an error in the calculations for the costs of the fuel-consuming and time-consuming area, specifically in lines 149 and 155 of the original code (a_star_noted.py).  In these calculations, the cost of fuel (C<sub>f</sub>) and time (C<sub>t</sub>) were not multiplied to the additional trip fuel (ΔF<sub>a</sub>) and time (ΔT<sub>a</sub>) required, resulting in a cost a little short of what it is supposed to be.  The group was able to resolve this error, as shown below."
-
-  <img src="Sources\CodeError.jpg">
-    
-  ## Task 1
-  #### Find the PolyU Aircraft Model with the minimum cost for the challenge assigned to our group.
 <table><tr><td>
-    Solution:
-    <li> The 4 PolyU Aircraft Models datas:</li>
-    <img src="Sources\Task 1\Aircraft Models.png">
-    
-    With the following formulae given:
-      <img src="Sources\Task 1\Formulae Cost.png">
-    <img src="Sources\GIFs\AAEFP Task 1 - A380.gif">
+	
+### Code Ammendments
+	
+  "In this project, the group was given the task to modify an A-Star Algorithm code provided by the lecturers to match the required obstacles of the group.  In this algorithm, however, the group located an error in the calculations for the costs of the fuel-consuming and time-consuming area; specifically in lines 149 and 155 of the original code (a_star_noted.py).  In these calculations, the cost of fuel (C<sub>f</sub>) and time (C<sub>t</sub>) were not multiplied to the additional trip fuel (ΔF<sub>a</sub>) and time (ΔT<sub>a</sub>) required, resulting in a cost a little short of what it is supposed to be.  The group was able to resolve this error, as shown below."
+<img src="Sources\CodeError.jpg">
+
 </td></tr></table>
+
+<table><tr><td>
+<h2>Task 1: </h2>
+<table><tr><td>Find the PolyU Aircraft Model with the minimum cost for the challenge assigned to our group.</td></tr></table>
+<tr>The given features of the 4 PolyU Aircraft Model are as follows:
+<img src="Sources\Task 1\Aircraft Models.png"></tr><br><br>
+<tr><li>By using the following formulae given:</tr></li>
+<tr><img src="Sources\Task 1\CostFormula.png" width="674.34" height="62.5"></tr>
+
+With
+	<tr><li>D<sub>Total</sub> = Total Distance Travelled</li></tr>
+	<tr><li>D<sub>Fa</sub> = Distance Travelled in Fuel Consuming Area</li></tr>
+	<tr><li>D<sub>Ta</sub> = Distance Travelled in Time Consuming Area</li></tr>
+
+</td></tr></table>
+
+<hr>
+<table><td><tr>
+<tr><h4><i>Solution:</i></tr></h4>
+<li>Excel is being utilized to help generate the following table:</li>
+<img src="Week 6 Compulsory Tasks\Task 1\Cost for each plane.png"><br>
+<a href="https://github.com/adrianlua03/ENG1003_w1_Group10/blob/main/Week%206%20Compulsory%20Tasks/Task%201/Cost%20for%20each%20Plane.xlsx?raw=true">Click here for  Excel Raw File</a>	<br><br>
+∴ As can be seen, highlighted in green, the PolyU-A380 scores the lowest Goal Cost under the consideration with the given constraints. It is being animated below:
+<br>
+	<p align="center">
+<img src="Sources\GIFs\AAEFP Task 1 - A380.gif" width="412" height="310">
+</tr></td></table>
+<hr>
+<table><tr><td>
+	<h2>Task 2</h2>
+<table><tr><td>Find the PolyU Aircraft Model that achieve minimum cost for the challenge assigned to our group.
+</td></tr></table>
+	</td></tr></table>
+<hr>
+<pre><strong>2.1 | 4 constraints with 2 variables</strong><br></pre>
+<p align="center">
+<img src="Sources\GIFs\AAEFP Task 2 - 2 Var.gif" width="412" height="310"></li>
   
-	
-  ## Task 2.1
-  
-  #### Find the PolyU Aircraft Model that achieve minimum cost for the challenge assigned to our group.
-  <img src="Sources\GIFs\AAEFP Task 2 - 2 Var.gif" width="412" height="310"></li>
-  
-  ## Task 2.2
+<pre><strong>2.2 | 4 constraints with 6 variables</strong><br></pre>
+<p align="center">
+<img src="Sources\GIFs\AAEFP Task 2 - 6 Var.gif" width="412" height="310">
  
-	
-  ## Task 3
- 
+<hr>
+<table><tr><td>
+	<h2>Task 3</h2>
+<table><tr><td>Design a new cost area that can reduce the cost of the route.
+</td></tr></table>
+	<p align="center">
+	</td></tr></table>
+<p align="center">
+<img src="Sources\GIFs\AAEFP Task 3.gif" width="412" height="310">
+<hr>
+
   #### Design a minus cost area for the challenge assigned to our group.
 
-  
+<br><br>
+
+
+<div id="Additional Tasks">
+	
+# Additional Task
+<table><tr><td>
+<h2>Adding Checkpoints: </h2>
+	
+	
+</td></tr></table>
+
+<br><br>
 <div id="Reflective Essays">
   
 # Reflective Essays
