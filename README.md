@@ -78,6 +78,12 @@ Moving outside commercial aviation, path planning is also becoming increasingly 
 <img src="Sources\Task 1\Aircraft Models.png"></tr><br><br>
 <tr><li>By using the following formulae given:</tr></li>
 <tr><img src="Sources\Task 1\CostFormula.png" width="674.34" height="62.5"></tr>
+
+With
+	<tr><li>D<sub>Total</sub> = Total Distance Travelled</li></tr>
+	<tr><li>D<sub>Fa</sub> = Distance Travelled in Fuel Consuming Area</li></tr>
+	<tr><li>D<sub>Ta</sub> = Distance Travelled in Time Consuming Area</li></tr>
+
 </td></tr></table>
 
 <hr>
