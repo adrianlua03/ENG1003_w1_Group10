@@ -125,6 +125,10 @@ Results are as shown below:
 	
 <img src="Sources\Task 3\Task3Result.png">	
 	
+### b. Results
+
+### c. Discussion
+	
 <hr>
 <table><tr><td>
 	<h2>Task 3</h2>
