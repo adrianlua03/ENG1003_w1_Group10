@@ -179,8 +179,8 @@ From the results shown on the GIF above, it can be seen that the path taken by t
 <div id="Additional Tasks">
 	
 # Additional Task
-<table><tr><td>
-<h2>Adding Checkpoints: </h2>
+	
+## I. Adding Checkpoints
 	
 	
 </td></tr></table>
