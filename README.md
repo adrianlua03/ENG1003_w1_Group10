@@ -148,11 +148,13 @@ An important implication from this task is that to minimize the cost, minimizing
 
 ### a. Methodology
 
-Similar to the previous task, the implementation of the minus-cost area was also done with pure analysis.  For this task, the aircraft used was the PolyU-A380, whose original minimum cost path is already known as figured in task 1.  Because of this, the group would be able to know where to implement the minus-cost area since it would be most logical to have it coinside with the path to obtain the maximum deduction.  
+Similar to the previous task, the implementation of the minus-cost area was also done with pure analysis.  For this task, the aircraft used was the PolyU-A380, whose original minimum cost path is already known as figured in task 1.  Because of this, the group would be able to know where to implement the minus-cost area since it would be most logical to have it coincide with the path to obtain the maximum deduction.  
 
-To get the maximum possible deduction, the distance would have to be altered since the cost per node is fixed.  This would mean that the minus-cost area would have to be a 16-grid-point-long diagonal line 16√2, since this would cover the most distance along the path.  
+This is because the original path of the PolyU A380 already gives the minimum cost.  It would make sense to implement the minus-cost area along this path as this further minimizes the cost of the already minimum path.  Additionally, adding this area along the original path would not alter it, making it a more favorable path.  
 
-Since the original path of the PolyU A380 already shows the minimum cost, it would make sense to implement the minus-cost area along this path as it only makes this path more favorable.  
+A method by altering the path may be possible; however, in this situation, the cost of travelling a slightly longer distance outweighs the cost deducted from that longer distance.  It would be more favorable to keep the minimum original distance travelled.  
+
+To get the maximum possible deduction for this path, the distance would have to be altered as the cost per node is fixed.  This would mean that the minus-cost area would have to be a 16-grid-point-long diagonal line 16√2, since this would cover the most distance along the path.  
 
 ### b. Results
 
@@ -167,11 +169,9 @@ The cost for this task is as shown below:
 
 ### c. Discussion
 
-The results above shows a GIF with the diagonal minus-cost area marked in blue.  This area coinsides with the original path plan, as mentioned earlier, allowing for a maximum deduction from the minimum cost.  
+From the results shown on the GIF above, it can be seen that the path taken by the A380 in this situation did not alter from the original path taken.  It is shown that the minus-cost area, shown in blue, coincides with this original path along a diagonal line.  
 
-The analysis as mentioned above works because to obtain the minimum cost, a maximum deduction must be implemented, which would be possible if the distance travelled by the aircraft within the area can be altered to reach the maximum distance.  Adding this area along the original path would not change or alter the path taken in the new situation because this only further decreases the cost required for the aircraft, making the path more favorable.  
-
-A method by altering the path may be possible; however, in this situation, the cost of travelling a slightly longer distance outweighs the cost deducted from that longer distance.  It would be more favorable to keep the minimum original distance travelled.  
+{in what real life situation is cost subtracted??? wind current???}
 
 <br><br>
 
