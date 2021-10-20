@@ -141,18 +141,21 @@ From the results of this task, it can be seen that similar to the {aircraft of t
 An important implication from this task is that to minimize the cost, minimizing all of the variables may not be practical or efficient.  As implied in the analysis from the methodology, all variables work together to minimize the cost.  Some values must be raised to minimize the others; as in real life situations, there will always be constraints similar to the inequalities provided in the task.  Additionally, just because one variable is high does not mean that the total cost would also be high.  In some cases, similar to that of task 2.1, maximizing costs in one area may lead to a different path, which avoids the area entirely.  In most real life situations, choosing a more efficient path, instead of the shortest path, will lead to shorter costs.  
 	
 <hr>
-<table><tr><td>
-	<h2>Task 3</h2>
+
+## Task 3
 <table><tr><td>Design a new cost area that can reduce the cost of the route.
 </td></tr></table>
-	<p align="center">
-	</td></tr></table>
-<p align="center">
-<img src="Sources\GIFs\AAEFP Task 3.gif" width="412" height="310">
-<hr>
 
-  #### Design a minus cost area for the challenge assigned to our group.
+### a. Methodology
 
+### b. Results
+
+The path plan is as shown below:  
+<br />
+<img src="Sources\GIFs\AAEFP Task 3" width="309" height="232.5">
+
+### c. Discussion
+  
 <br><br>
 
 
