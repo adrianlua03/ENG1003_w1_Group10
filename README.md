@@ -152,7 +152,7 @@ An important implication from this task is that to minimize the cost, minimizing
 
 The path plan is as shown below:  
 <br />
-<img src="Sources\GIFs\AAEFP Task 3" width="309" height="232.5">
+<img src="Sources\GIFs\AAEFP Task 3.gif" width="309" height="232.5">
 
 ### c. Discussion
   
