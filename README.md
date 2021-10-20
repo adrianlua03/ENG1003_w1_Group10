@@ -136,7 +136,9 @@ The 6 chosen variables (not including C<sub>C</sub>) and the cost it amounted to
 
 ### c. Discussion
 
-From the results of this task, it can be seen that similar to the {aircraft of task 2.1}, {task 2.2} also avoids the time-consuming area.  This is because the cost of fuel and the additional trip fuel is too high in this case.  
+From the results of this task, it can be seen that similar to the {aircraft of task 2.1}, {task 2.2} also avoids the time-consuming area.  This is because the cost of fuel and the additional trip fuel is too high in this case.  The results also show that the path taken by this aircraft is longer than paths taken by the PolyU aircrafts, similar to {task 2.1}.  
+
+An important implication from this task is that to minimize the cost, minimizing all of the variables may not be practical or efficient.  As implied in the analysis from the methodology, all variables work together to minimize the cost.  Some values must be raised to minimize the others; as in real life situations, there will always be constraints similar to the inequalities provided in the task.  Additionally, just because one variable is high does not mean that the total cost would also be high.  In some cases, similar to that of task 2.1, maximizing costs in one area may lead to a different path, which avoids the area entirely.  In most real life situations, choosing a more efficient path, instead of the shortest path, will lead to shorter costs.  
 	
 <hr>
 <table><tr><td>
