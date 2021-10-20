@@ -73,7 +73,7 @@ Moving outside commercial aviation, path planning is also becoming increasingly 
 </td></tr></table>
 
 <table><tr><td>
-<h2>Task 1: </h2>
+<h2>→Task 1: </h2>
 <table><tr><td>Find the PolyU Aircraft Model with the minimum cost for the challenge assigned to our group.</td></tr></table>
 <tr>The given features of the 4 PolyU Aircraft Model are as follows:
 <img src="Sources\Task 1\Aircraft Models.png"></tr><br><br>
@@ -100,10 +100,11 @@ With
 </tr></td></table>
 <hr>
 
-
-## Task 2
+<table><tr><td>
+<h2>→Task 2</h2>
 <table><tr><td>Find the PolyU Aircraft Model that achieve minimum cost for the challenge assigned to our group.
-</td></tr></table>
+</td></tr></table></td></tr></table>
+
 	
 
 <pre><strong>2.1 | 4 constraints with 2 variables</strong><br></pre>
@@ -142,9 +143,10 @@ An important implication from this task is that to minimize the cost, minimizing
 	
 <hr>
 
-## Task 3
+<table><tr><td>
+<h2>→Task 3</h2>
 <table><tr><td>Design a new cost area that can reduce the cost of the route.
-</td></tr></table>
+</td></tr></table></td></tr></table>
 
 ### a. Methodology
 
