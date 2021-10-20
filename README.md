@@ -136,7 +136,7 @@ The 6 chosen variables (not including C<sub>C</sub>) and the cost it amounted to
 
 ### c. Discussion
 
-One aspect that differs the path plan of {name of aircraft} from the planes above is that the plane does not cross the time-consuming area.  This is because the cost of this area (9) and the additional time it takes to go through this area (9) is significantly greater than that of the fuel consuming area, meaning it would be more efficient to avoid it all together.  
+From the results of this task, it can be seen that similar to the {aircraft of task 2.1}, {task 2.2} also avoids the time-consuming area.  This is because the cost of fuel and the additional trip fuel is too high in this case.  
 	
 <hr>
 <table><tr><td>
