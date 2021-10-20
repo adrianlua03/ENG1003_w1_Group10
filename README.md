@@ -148,14 +148,29 @@ An important implication from this task is that to minimize the cost, minimizing
 
 ### a. Methodology
 
+Similar to the previous task, the implementation of the minus-cost area was also done with pure analysis.  For this task, the aircraft used was the PolyU-A380, whose original minimum cost path is already known as figured in task 1.  Because of this, the group would be able to know where to implement the minus-cost area since logically, it would have to coinside with the path to obtain the maximum deduction.  
+
+To get the maximum possible deduction, the distance would have to be altered since the cost per node is fixed.  This would mean that the minus-cost area would have to be a 16-grid-point-long diagonal line 16√2, since this would cover the most distance along the path.  
+
 ### b. Results
 
 The path plan is as shown below:  
 <br />
 <img src="Sources\GIFs\AAEFP Task 3.gif" width="309" height="232.5">
 
+
+The cost for this task is as shown below:
+	
+<img src="Sources\Task 3\Task3Table.png" width="785.09" height="92.25">
+
 ### c. Discussion
-  
+
+The results above shows a GIF with the diagonal minus-cost area marked in blue.  This area coinsides with the original path plan, as mentioned earlier, allowing for a maximum deduction from the minimum cost.  
+
+The analysis as mentioned above works because to obtain the minimum cost, a maximum deduction must be implemented, which would be possible if the distance travelled by the aircraft within the area can be altered to reach the maximum distance.  Adding this area along the original path would not change or alter the path taken in the new situation because this only further decreases the cost required for the aircraft, making the path more favorable.  
+
+A method by altering the path may be possible; however, in this situation, the cost of travelling a slightly longer distance outweighs the cost deducted from that longer distance.  It would be more favorable to keep the minimum original distance travelled.  
+
 <br><br>
 
 
