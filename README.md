@@ -148,9 +148,11 @@ An important implication from this task is that to minimize the cost, minimizing
 
 ### a. Methodology
 
-Similar to the previous task, the implementation of the minus-cost area was also done with pure analysis.  For this task, the aircraft used was the PolyU-A380, whose original minimum cost path is already known as figured in task 1.  Because of this, the group would be able to know where to implement the minus-cost area since logically, it would have to coinside with the path to obtain the maximum deduction.  
+Similar to the previous task, the implementation of the minus-cost area was also done with pure analysis.  For this task, the aircraft used was the PolyU-A380, whose original minimum cost path is already known as figured in task 1.  Because of this, the group would be able to know where to implement the minus-cost area since it would be most logical to have it coinside with the path to obtain the maximum deduction.  
 
 To get the maximum possible deduction, the distance would have to be altered since the cost per node is fixed.  This would mean that the minus-cost area would have to be a 16-grid-point-long diagonal line 16√2, since this would cover the most distance along the path.  
+
+Since the original path of the PolyU A380 already shows the minimum cost, it would make sense to implement the minus-cost area along this path as it only makes this path more favorable.  
 
 ### b. Results
 
