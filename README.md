@@ -196,8 +196,14 @@ Since the checkpoints were required to be located inside each cost-consuming are
 	
 ### b. Results
 	
+The original and modified path plans for the A380 are as shown below:
+	
 <img src="Sources\GIFs\AAEFP Task 1 - A380.gif" width="309" height="232.5">
 <img src="Sources\GIFs\AdditionalTask1.gif" width="309" height="232.5">
+	
+### c. Discussion
+	
+The GIFs of both the original and modified path plans are presented side-by-side as shown above.  The GIFs show that the path plans for both planes differ significantly, especially because the checkpoints were located far away from the original path plan.  The cost for the path plan with checkpoints also increase significantly as compared to the original path because it travels and stays in the cost-consuming areas for a longer period.  
 	
 </td></tr></table>
 
