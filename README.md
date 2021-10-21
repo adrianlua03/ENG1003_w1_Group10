@@ -155,8 +155,10 @@ This is because the original path of the PolyU A380 already gives the minimum co
 For this task, the formula of the cost was manipulated, as shown below:
 
 <img src="Sources\Task 3\Task3Formula.png" width="703.3" height="31.4">
+
 With
-• D<sub>P</sub> = Distance travelled through the minus-cost area
+
+• D<sub>P</sub> = Distance travelled in minus-cost area
 
 According to the formula above, the cost deduction was simply subtracted from the original equation.  It can be seen that to get the maximum possible deduction for this path, the distance would have to be altered as the cost per node is fixed.  This would mean that the minus-cost area would have to be a 16-grid-point-long diagonal line 16√2, since this would cover the most distance along the path.  This distance is the maximum possible distance for any case, which means that the maximum possible cost is also fixed for any situation.  This would mean that to obtain the minimum cost, we would have to subtract the maximum possible deduction from the minimum original cost.  
 
