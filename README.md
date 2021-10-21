@@ -152,9 +152,13 @@ Similar to the previous task, the implementation of the minus-cost area was also
 
 This is because the original path of the PolyU A380 already gives the minimum cost.  It would make sense to implement the minus-cost area along this path as this further minimizes the cost of the already minimum path.  Additionally, adding this area along the original path would not alter it, making it a more favorable path.  
 
-A method by altering the path may be possible; however, in this situation, the cost of travelling a slightly longer distance outweighs the cost deducted from that longer distance.  It would be more favorable to keep the minimum original distance travelled.  
+For this task, the formula of the cost was manipulated, as shown below:
 
-To get the maximum possible deduction for this path, the distance would have to be altered as the cost per node is fixed.  This would mean that the minus-cost area would have to be a 16-grid-point-long diagonal line 16√2, since this would cover the most distance along the path.  
+<img src="Sources\Task 3\Task3Formula.png" width="937.73" height="41.87">
+
+According to the formula above, the cost deduction was simply subtracted from the original equation.  It can be seen that to get the maximum possible deduction for this path, the distance would have to be altered as the cost per node is fixed.  This would mean that the minus-cost area would have to be a 16-grid-point-long diagonal line 16√2, since this would cover the most distance along the path.  This distance is the maximum possible distance for any case, which means that the maximum possible cost is also fixed for any situation.  This would mean that to obtain the minimum cost, we would have to subtract the maximum possible deduction from the minimum original cost.  
+
+This analysis also shows that altering the path to get the minimum cost would not be possible because altering the cost would make the path longer, increasing the cost.  This increase would outweigh the deduction from the minus-cost path, making the alteration unviable.  
 
 ### b. Results
 
