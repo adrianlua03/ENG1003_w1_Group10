@@ -1,3 +1,10 @@
+<html>
+	
+ul {
+  display: table;
+  margin: 0 auto;
+}
+
 <details open="open" align="center">
   <summary><h4 style="display: inline-block"><pre>Table of Contents    <i>--(Toggle)</i></pre></h4></summary>  
     <li><a href="#About Path Planning">About Path Planning</a></li>
@@ -14,7 +21,7 @@
 <hr>
 <div id="About Path Planning">
 
-<h1>About Path Planning</h1>
+<h1>01 | About Path Planning</h1>
 <p align="center">
 <tr><img src="Sources\March-World-small.gif" width="500" height="300" class="center">
 
@@ -30,7 +37,7 @@ Moving outside commercial aviation, path planning is also becoming increasingly 
 <hr><br><br>
 
 <div id="Theory of Path Planning Algorithm">
-<h1>Theory of Path Planning Algorithm</h1>
+<h1>02 | Theory of Path Planning Algorithm</h1>
 	
 <p align="center">
 <img src="Sources\Potential_path.gif" width="500" height="300" class="center">
@@ -51,18 +58,20 @@ These are the bases of creating the path planning environment. The exact codes o
 
 <div id="Programming Tools">
   
-# Programming Tools 
+# 03 | Programming Tools 
+	
 <pre>
 <li>Python</a>   <img src="Sources\220px-Python-logo-notext.svg.png" width="40" height="40"></li>
-
 <li>Github</a>   <img src="Sources\logo_github_icon_143196.png" width="40" height="40"></li>
-
 <li>Microsoft Visual Studio   <img src="Sources\Visual_Studio_Icon_2019.png" width="40" height="40"></li>
+<p align="center">
+<a href="https://code.visualstudio.com/docs/editor/github"> Click here for brief installation and usage guidance</a>
 </pre>
 <br><br>
+
 <div id="Project Goals">
   
-# Project Goals
+# 04 | Project Goals
 
 <li><a href="#Task 1">Choose the optimum aircraft models with lowest-cost route</a></li>
 <li><a href="#Task 2">Design an aircraft with low operation cost</li>
@@ -75,13 +84,14 @@ These are the bases of creating the path planning environment. The exact codes o
 <br><br>
 <div id="Assignments">
   
-# Assignments
+# 05 | Assignments
   
 <table><tr><td>
 	
 ### Code Ammendments
-	
+<i>
   "In this project, the group was given the task to modify an A-Star Algorithm code provided by the lecturers to match the required obstacles of the group.  In this algorithm, however, the group located an error in the calculations for the costs of the fuel-consuming and time-consuming area; specifically in lines 149 and 155 of the original code (a_star_noted.py).  In these calculations, the cost of fuel (C<sub>f</sub>) and time (C<sub>t</sub>) were not multiplied to the additional trip fuel (ΔF<sub>a</sub>) and time (ΔT<sub>a</sub>) required, resulting in a cost a little short of what it is supposed to be.  The group was able to resolve this error, as shown below."
+	</i>
 	
 <img src="Sources\CodeError.jpg">
 
@@ -90,12 +100,12 @@ These are the bases of creating the path planning environment. The exact codes o
 <table><tr><td>
 <h2>→ Task 1: </h2>
 <table><tr><td>Find the PolyU Aircraft Model with the minimum cost for the challenge assigned to our group.</td></tr></table>
-<tr>The given features of the 4 PolyU Aircraft Model are as follows:
+	<tr><strong>The given features of the 4 PolyU Aircraft Model are as follows:</strong>
 <img src="Sources\Task 1\Aircraft Models.png"></tr><br><br>
-<tr><li>By using the following formulae given:</tr></li>
+	<tr><li><strong>By using the following formulae given:</tr></li></strong>
 <tr><img src="Sources\Task 1\CostFormula.png" width="674.34" height="41.87"></tr>
 
-With
+<strong>With</strong>
 	<tr><li>D<sub>Total</sub> = Total Distance Travelled</li></tr>
 	<tr><li>D<sub>Fa</sub> = Distance Travelled in Fuel Consuming Area</li></tr>
 	<tr><li>D<sub>Ta</sub> = Distance Travelled in Time Consuming Area</li></tr>
@@ -203,7 +213,7 @@ When compared to real-life situations, the minus-cost area may be analogous to a
 
 <div id="Additional Tasks">
 	
-# Additional Tasks
+# 06 | Additional Tasks
 ## → Adding Checkpoints
 ### a. Methodology
 
@@ -299,7 +309,7 @@ Similar to the flow field algorithm, the potential field algorithm incorportates
 <br><br>
 <div id="Reflective Essays">
 	
-# Reflective Essays
+# 07 | Reflective Essays
   
   ####   LUA, Adrian Shalom (21093985D)
   
@@ -324,7 +334,7 @@ Lastly, I have recognized the importance of routing and directions when it comes
   ####   TSUI Zheng Yang （21065427D）
     
   <table><tr><td>
-In the early stages, path planning can only be done by hand manually to help ensure the safe operation of an aircraft during a route flight. Performing calculations by hand, especially when solving through multiple sets of constraints and lines continuous equations could be troublesome, and humans wouldn’t otherwise be able to catch up with the rapidly changing environmental conditions, making the process highly complicated and time consuming. In modern days as technology advanced exponentially, the need of manual path planning is greatly reduced where computer flight planning Is being adopted into our daily lives whereas the usage does not only get restricted to flight planning, but robotics or even computer games!
+In the early stages, path planning can only be done by hand manually to help ensure the safe operation of an aircraft during a route flight. Performing calculations by hand, especially when solving through multiple sets of constraints and lines continuous equations could be troublesome, and humans wouldn’t otherwise be able to catch up with the rapidly changing environmental conditions, making the process highly complicated and time consuming. In modern days as technology advanced exponentially, the need of manual path planning is greatly reduced where computer flight planning Is being adopted into our daily lives whereas the usage does not only get restricted to flight planning, but robotics or even computer games! <br><br>
 With computer aided path planning, accurate weather forecasts can be obtained directly from the internet while the fuel consumption calculations and flight conditions are being optimized to be efficient hence as inexpensive as possible. In this subject, we are being given the above task where our group gets to experience 2-Dimensional path planning by using Python, a high-level programming language, where it calculates a set of solutions that best fits the aircraft’s operational efficiency in real time alongside with the two safety-critical aspects: fuel approximation and the compliance with the air traffic control requirements. To conclude with, doing path planning with program languages such as Python can be highly versatile and instantaneous, great for tasks like flight planning.
 (TBC, -ve 70 words)
   </td></tr></table>  
