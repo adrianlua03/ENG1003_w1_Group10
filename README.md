@@ -221,9 +221,8 @@ The GIFs of both the original and modified path plans are presented side-by-side
 In most real-life scenarios, such as those in military applications, checkpoints are set for the flight plans.  It is important to take note that the most efficient path from start to end might not always stop on checkpoints.  This is why checkpoints must almost always be included in calculations such as these to find the most efficient path while fulfilling important tasks along the way.  
 	
 </td></tr></table>
-
-<br><br>
-<div id="Reflective Essays">
+	
+## → Changing Environment
 	
 ## → Comparing Algorithms
 ### a. Methodology
@@ -291,6 +290,9 @@ Introducing the concept of flow fields in this pathfinding process is an effecti
 Similar to the flow field algorithm, the potential field algorithm incorportates potential fields in the pathfinding process. This can be practical in research situations wherein the velocity potential of a flow is taken into account. Compared with Flow Field Pathfinding, Potential Field Pathplanning is less practical as Flow Fields are better suited for dynamic situations. 
 
   
+<br><br>
+<div id="Reflective Essays">
+	
 # Reflective Essays
   
   ####   LUA, Adrian Shalom (21093985D)
