@@ -313,14 +313,17 @@ Similar to the flow field algorithm, the potential field algorithm incorportates
 <hr>
 <br><br><br>
 
-<p align="center">
-<img src="Sources\ecf76f_c399f08accac43ceba9b7f8d92dfcfd3_mv2.gif" width="1000">
+
 <br><br><br>
 
 
 <div id="Reflective Essays">
 	
 # 07 | Reflective Essays
+	
+<p align="center">
+<img src="Sources\ecf76f_c399f08accac43ceba9b7f8d92dfcfd3_mv2.gif" width="300">
+	
   
   ####   LUA, Adrian Shalom (21093985D)
   
