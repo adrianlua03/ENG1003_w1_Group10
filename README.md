@@ -30,6 +30,7 @@ Moving outside commercial aviation, path planning is also becoming increasingly 
 <hr><br><br>
 
 <div id="Theory of Path Planning Algorithm">
+<h1>Theory of Path Planning Algorithm</h1>
 	
 The goal of path planning, simply put, is to select the shortest path from the start node to the goal node. An important theory of path planning is the concept of Global and Local Path Planning. Global Path Planning allows the "object" in the start node to complete its travel based on known parameters and obstacles given. Simply put, the environment and its obstacles are known, and the algorithm can use this predetermined information to generate the needed path. On the other hand, Local Path Planning refers to a path planning wherein the obstacles are unknown and are not predefined. Therefore, the object in the algorithm will need to utilize its sensor to detect the environment and complete its travel.
 	
