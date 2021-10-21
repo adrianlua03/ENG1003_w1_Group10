@@ -1,6 +1,7 @@
 <details open="open" align="center">
   <summary><h4 style="display: inline-block"><pre>Table of Contents    <i>--(Toggle)</i></pre></h4></summary>  
     <li><a href="#About Path Planning">About Path Planning</a></li>
+    <li><a href="#Theory of Path Planning Algorithm">Theory of Path Planning Algorithm</a></li>
     <li><a href="#Programming Tools">Engineering Tools</a></li>
     <li><a href="#Project Goals">Project Goals</a></li>
     <li><a href="#Assignments">Assignments</a></li>
@@ -28,7 +29,18 @@ Moving outside commercial aviation, path planning is also becoming increasingly 
 
 <hr><br><br>
 
-
+<div id="Theory of Path Planning Algorithm">
+	
+The goal of path planning, simply put, is to select the shortest path from the start node to the goal node. An important theory of path planning is the concept of Global and Local Path Planning. Global Path Planning allows the "object" in the start node to complete its travel based on known parameters and obstacles given. Simply put, the environment and its obstacles are known, and the algorithm can use this predetermined information to generate the needed path. On the other hand, Local Path Planning refers to a path planning wherein the obstacles are unknown and are not predefined. Therefore, the object in the algorithm will need to utilize its sensor to detect the environment and complete its travel.
+	
+The A Star Path Planning Algorithm, which is used in this project, runs under Global Path Planning because the obstacles and barriers are pre-set. The A Star Path Planning Algorithm uses a heuristic search method to identify the route of travel from the start node to the end node. Heuristic search, by definition, refers to the concept of "testing and trying". The algorithm will test if a certain approach is feasible, taking into account the obstacles, the goal node, and the route. This approach works well with the project because heuristic search methods usually take less time, though less optimal. 
+	
+	
+In order to define the environment that the object will run in, the A Star Path Planning Algorithm will have lines in the code in which users can enter their desired start coordinates and goal coordinates. When using the programming language Python, the graph that contains these coordinates are normally being help displayed by a plotting library called Matplotlib. Matplotlib is not a built in function in Python, but it is a mathematical extension that helps in providing a visually comprehensible map with coordinates. Because Matplotlib is an extension rather than a function, Matplotlib first needs to be installed and then imported into the code for it to be put to use. This is done by entering the line "import matplotlib.pyplot as plt". 
+	
+Aside from the start coordinates and goal coordinates, the relevant borders and obstacles also need to be plotted and seen in Matplotlib. The way that these borders and obstacles are plotted centers around creating a list which will contain the points in the map where the obstacles and borders are to be plotted in. The program uses the .append function to add more elements to the list, which would be the points that will be plotted in the graph. The program also utilizes a "for" loop to continuously add these elements within a certain range, until the desired line (which is made up of the points, defined by the elements in the created list) has been formed. Then, the path planning algorithm will plot these points in the map. 
+	
+These are the bases of creating the path planning environment. The exact codes of the algorithm varies depending on the type of algorithm used, but they generally have the same goal: to define the shortest route from the start node to the goal node. 
 
 
 
