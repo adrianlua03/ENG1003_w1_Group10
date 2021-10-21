@@ -1,10 +1,3 @@
-<html>
-	
-ul {
-  display: table;
-  margin: 0 auto;
-}
-
 <details open="open" align="center">
   <summary><h4 style="display: inline-block"><pre>Table of Contents    <i>--(Toggle)</i></pre></h4></summary>  
     <li><a href="#About Path Planning">About Path Planning</a></li>
