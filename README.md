@@ -203,7 +203,9 @@ The original and modified path plans for the A380 are as shown below:
 	
 ### c. Discussion
 	
-The GIFs of both the original and modified path plans are presented side-by-side as shown above.  The GIFs show that the path plans for both planes differ significantly, especially because the checkpoints were located far away from the original path plan.  The cost for the path plan with checkpoints also increase significantly as compared to the original path because it travels and stays in the cost-consuming areas for a longer period.  
+The GIFs of both the original and modified path plans are presented side-by-side as shown above.  The GIFs show that the path plans for both planes differ significantly, especially because the checkpoints were located far away from the original path plan.  The cost for the path plan with checkpoints also increase significantly as compared to the original path because it is required to travel and stay in the cost-consuming areas along a longer distance.  
+	
+In most real-life scenarios, such as those in military applications, checkpoints are set for the flight plans.  It is important to take note that the most efficient path from start to end might not always stop on checkpoints.  This is why checkpoints must almost always be included in calculations such as these to find the most efficient path while fulfilling important tasks along the way.  
 	
 </td></tr></table>
 
