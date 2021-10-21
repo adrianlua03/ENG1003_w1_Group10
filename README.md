@@ -230,9 +230,7 @@ In most real-life scenarios, such as those in military applications, checkpoints
 	
 In this additional task, three other algorithms were taken from the Path Planning Repository owned by Atsushi Sakai, namely: D Star Lite, Flow Field, and Potential Field. These algorithms were then modified to try to provide a similar obstacle set as the obstacle set assigned to the group for the A Star algorithm. In addition, the algorithms' theories and operating principles were studied thoroughly. 
 	
-The group selected two parameters suitable for comparison:
-	• Obstacles
-	• Theory
+The group selected two parameters suitable for comparison: Obstacles and Theory
 	
 **Obstacles**
 	
@@ -247,8 +245,7 @@ The following steps were taken to modify/compare obstacles:
 Whereas for theory, a less systematic approach was taken. The respective algorithms' principles were studied and relevant research papers were read. Then, a table (see figure below) was used to compare specific properties of the algorithms. 
 	
 (Insert table)
-	
-	
+		
 ### b. Results
 	
 **Obstacles**
@@ -260,8 +257,7 @@ For the D Star Lite Algorithm, the obstacle coordinates were successfully change
 (Insert GIF of D Star Lite PLot)
 	
 However, because D Star Algorithm is written in a different way and logic as the A Star Algorithm, the path generated differs from that of the A Star Algorithm. In the path generation for D Star, the algorithm simply passes through the obstacle, which the group finds somewhat unintuitive. The code can be modified to generate a more intuitive path. However, such task is beyond the scope of the obstacle comparison. 
-	
-	
+		
 FLow Field 
 	
 For Flow Field Path Planning, (to be continued)
@@ -270,14 +266,12 @@ Potential Field
 	
 (To be continued)
 	
-
 **Theory**
 	
 Below is the completed table that highlights the differences and similarities of each algorithm.
 	
 (Insert Table)
 		
-
 ### c. Discussion
 	
 **D Star Lite**
