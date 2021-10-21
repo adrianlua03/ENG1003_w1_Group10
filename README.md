@@ -11,7 +11,10 @@
 <a href="https://info.flagcounter.com/MqVq"><img src="https://s01.flagcounter.com/count/MqVq/bg_FFFFFF/txt_000000/border_CCCCCC/columns_1/maxflags_5/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
   </ol>
 </details>
-
+<br>
+<p align="center">
+<img src="Sources\20d9c9ccfee8b5892a145199e458fc79.gif" width="1000" height="500">
+	
 <br><br>
 <hr>
 <div id="About Path Planning">
@@ -35,7 +38,7 @@ Moving outside commercial aviation, path planning is also becoming increasingly 
 <h1>02 | Theory of Path Planning Algorithm</h1>
 	
 <p align="center">
-<img src="Sources\Potential_path.gif" width="500" height="300" class="center">
+<img src="Sources\Potential_path.gif" width="700" height="300" class="center">
 <br>
 	
 The goal of path planning, simply put, is to select the shortest path from the start node to the goal node. An important theory of path planning is the concept of Global and Local Path Planning. Global Path Planning allows the "object" in the start node to complete its travel based on known parameters and obstacles given. Simply put, the environment and its obstacles are known, and the algorithm can use this predetermined information to generate the needed path. On the other hand, Local Path Planning refers to a path planning wherein the obstacles are unknown and are not predefined. Therefore, the object in the algorithm will need to utilize its sensor to detect the environment and complete its travel.
@@ -55,8 +58,10 @@ These are the bases of creating the path planning environment. The exact codes o
   
 # 03 | Programming Tools 
 
-<p align="center>
-<img src="Sources\bfc67a7da17b8a3f224b0ba748c71364.gif" width="400" height="300" class="center">
+	
+<p align="center">
+<img src="Sources\bfc67a7da17b8a3f224b0ba748c71364.gif" width="700" height="300" class="center">
+											       
 <pre>
 <li>Python</a>   <img src="Sources\220px-Python-logo-notext.svg.png" width="40" height="40"></li>
 <li>Github</a>   <img src="Sources\logo_github_icon_143196.png" width="40" height="40"></li>
@@ -306,7 +311,11 @@ Introducing the concept of flow fields in this pathfinding process is an effecti
 	
 Similar to the flow field algorithm, the potential field algorithm incorportates potential fields in the pathfinding process. This can be practical in research situations wherein the velocity potential of a flow is taken into account. Compared with Flow Field Pathfinding, Potential Field Pathplanning is less practical as Flow Fields are better suited for dynamic situations. 
 <hr>
-<br><br>
+<br><br><br>
+
+<p align="center">
+<img src="Sources\ecf76f_c399f08accac43ceba9b7f8d92dfcfd3_mv2.gif" width="1000">
+<br><br><br>
 
 
 <div id="Reflective Essays">
@@ -352,3 +361,7 @@ With computer aided path planning, accurate weather forecasts can be obtained di
   <table><tr><td>
     typehere5
   </td></tr></table>  
+
+<br><br>
+<p align="center">
+<img src="Sources\have-a-anice-flight-1.gif" width="1000">
