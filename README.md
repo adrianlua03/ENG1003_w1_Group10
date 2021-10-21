@@ -231,8 +231,8 @@ In most real-life scenarios, such as those in military applications, checkpoints
 In this additional task, three other algorithms were taken from the Path Planning Repository owned by Atsushi Sakai, namely: D Star Lite, Flow Field, and Potential Field. These algorithms were then modified to try to provide a similar obstacle set as the obstacle set assigned to the group for the A Star algorithm. In addition, the algorithms' theories and operating principles were studied thoroughly. 
 	
 The group selected two parameters suitable for comparison:
-• Obstacles
-• Theory
+	• Obstacles
+	• Theory
 	
 **Obstacles**
 	
