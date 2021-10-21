@@ -160,7 +160,7 @@ With
 
 • D<sub>P</sub> = Distance travelled in minus-cost area
 
-According to the formula above, the cost deduction was simply subtracted from the original equation.  It can be seen that to get the maximum possible deduction for this path, the distance would have to be altered as the cost per node is fixed.  This would mean that the minus-cost area would have to be a 16-grid-point-long diagonal line 16√2, since this would cover the most distance along the path.  This distance is the maximum possible distance for any case, which means that the maximum possible cost is also fixed for any situation.  This would mean that to obtain the minimum cost, we would have to subtract the maximum possible deduction from the minimum original cost.  
+According to the formula above, the cost deduction was simply subtracted from the original equation.  It can be seen that to get the maximum possible deduction for this path, the distance would have to be altered as the cost per node is fixed.  This would mean that the minus-cost area would have to be a 16-grid-point-long diagonal line 16√2, since this would cover the most distance along the path.  This distance is the maximum possible distance for any case, which means that the maximum possible cost is also fixed for any situation.  This would mean that to obtain the minimum cost, we would have to subtract the maximum possible deduction from the minimum original cost (as calculated in task 1).  
 
 This analysis also shows that altering the path to get the minimum cost would not be possible because altering the cost would make the path longer, increasing the cost.  This increase would outweigh the deduction from the minus-cost path, making the alteration unviable.  
 
