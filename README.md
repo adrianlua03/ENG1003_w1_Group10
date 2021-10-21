@@ -100,7 +100,7 @@ With
 
 <table><tr><td>
 <h2>→ Task 2</h2>
-<table><tr><td>Find the PolyU Aircraft Model that achieve minimum cost for the challenge assigned to our group.
+<table><tr><td>Design a new aircraft model within the constrains to achieve minimum cost for your group challenge. 
 </td></tr></table></td></tr></table>
 
 	
