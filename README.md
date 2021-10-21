@@ -32,6 +32,10 @@ Moving outside commercial aviation, path planning is also becoming increasingly 
 <div id="Theory of Path Planning Algorithm">
 <h1>Theory of Path Planning Algorithm</h1>
 	
+<p align="center">
+<img src="Sources\Potential_path.gif" width="500" height="300" class="center">
+<br>
+	
 The goal of path planning, simply put, is to select the shortest path from the start node to the goal node. An important theory of path planning is the concept of Global and Local Path Planning. Global Path Planning allows the "object" in the start node to complete its travel based on known parameters and obstacles given. Simply put, the environment and its obstacles are known, and the algorithm can use this predetermined information to generate the needed path. On the other hand, Local Path Planning refers to a path planning wherein the obstacles are unknown and are not predefined. Therefore, the object in the algorithm will need to utilize its sensor to detect the environment and complete its travel.
 	
 The A Star Path Planning Algorithm, which is used in this project, runs under Global Path Planning because the obstacles and barriers are pre-set. The A Star Path Planning Algorithm uses a heuristic search method to identify the route of travel from the start node to the end node. Heuristic search, by definition, refers to the concept of "testing and trying". The algorithm will test if a certain approach is feasible, taking into account the obstacles, the goal node, and the route. This approach works well with the project because heuristic search methods usually take less time, though less optimal. 
@@ -248,12 +252,14 @@ Whereas for theory, a less systematic approach was taken. The respective algorit
 ### b. Results
 	
 **Obstacles**
-	
+
 D Star Lite
 	
 For the D Star Lite Algorithm, the obstacle coordinates were successfully changed. The bottom, top, left, and right borders were similar to the assigned A Star Algorithm, and the obstacle sets were similar as well. 
 	
-(Insert GIF of D Star Lite PLot)
+	
+![DimpledWealthyCardinal-size_restricted](https://user-images.githubusercontent.com/76478835/138321445-4c12d221-f6ef-4734-a4cf-0a9b763daf74.gif)
+
 	
 However, because D Star Algorithm is written in a different way and logic as the A Star Algorithm, the path generated differs from that of the A Star Algorithm. In the path generation for D Star, the algorithm simply passes through the obstacle, which the group finds somewhat unintuitive. The code can be modified to generate a more intuitive path. However, such task is beyond the scope of the obstacle comparison. 
 		
@@ -299,7 +305,8 @@ Similar to the flow field algorithm, the potential field algorithm incorportates
   
   <table><tr><td>
 Upon hearing the words “path planning”, what initially came to mind were complex codes and algorithms that consisted of over a thousand lines of code. “Path planning” sounded like a job for the “experts”: well-tenured engineers with over ten years of experience, computer scientists with PhDs, and so on. However, what I failed to realize before completing this project was the fact that simple path planning algorithms such as A Star can actually be learned by freshmen students such as myself, with the right mindset.
-	 
+<br><br>
+
 One of the main things that I have learned in this project was that there are several variables that can affect the cost consumption of an aircraft, and slight changes to one variable can significantly impact the cost of a flight. For example, when we compare the variables of the PolyU-A380 Aircraft with the PolyU-A381, the differences of their variables didn’t seem significant: Delta_F deviated by 0.5, Ct deviated by 1, DeltaFa deviated by 0.1, and deltaTa deviated by 0.2. These slight deviations may seem negligible, but those deviations were responsible for a cost difference of about 3,000. In this project, I have gained a better understanding of how small, seemingly insignificant changes to aircraft properties can actually cause a big difference in terms of cost. 
 
 Another thing I have learned was that programming and analytical skills are built through active engagement. Before partaking in this project, my mindset towards programming was such: “If I have a very skilled instructor who will teach me how to improve my programming skills, then I will be a great programmer myself”. However, after taking on this hands-on project with minimal experience, I have realized that engaging in codes that I have never seen before, altering them, learning how they work, and learning how to manipulate variables was a very effective way to enhance my programming skills. My programming capabilities were not dependent on external factors, rather it was dependent on my willingness to learn and actively challenge myself, to expose myself to codes that are difficult. The path planning project was a difficult task to accomplish, but with a willingness to learn, I, along with my groupmates, were able to face the challenges and accomplish the compulsory tasks.
@@ -317,7 +324,9 @@ Lastly, I have recognized the importance of routing and directions when it comes
   ####   TSUI Zheng Yang （21065427D）
     
   <table><tr><td>
-    typehere3
+In the early stages, path planning can only be done by hand manually to help ensure the safe operation of an aircraft during a route flight. Performing calculations by hand, especially when solving through multiple sets of constraints and lines continuous equations could be troublesome, and humans wouldn’t otherwise be able to catch up with the rapidly changing environmental conditions, making the process highly complicated and time consuming. In modern days as technology advanced exponentially, the need of manual path planning is greatly reduced where computer flight planning Is being adopted into our daily lives whereas the usage does not only get restricted to flight planning, but robotics or even computer games!
+With computer aided path planning, accurate weather forecasts can be obtained directly from the internet while the fuel consumption calculations and flight conditions are being optimized to be efficient hence as inexpensive as possible. In this subject, we are being given the above task where our group gets to experience 2-Dimensional path planning by using Python, a high-level programming language, where it calculates a set of solutions that best fits the aircraft’s operational efficiency in real time alongside with the two safety-critical aspects: fuel approximation and the compliance with the air traffic control requirements. To conclude with, doing path planning with program languages such as Python can be highly versatile and instantaneous, great for tasks like flight planning.
+(TBC, -ve 70 words)
   </td></tr></table>  
   
   ####   WONG Dik Hin (21071947D)
