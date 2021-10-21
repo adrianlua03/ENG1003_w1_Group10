@@ -11,7 +11,10 @@
 <a href="https://info.flagcounter.com/MqVq"><img src="https://s01.flagcounter.com/count/MqVq/bg_FFFFFF/txt_000000/border_CCCCCC/columns_1/maxflags_5/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
   </ol>
 </details>
-
+<br>
+<p align="center">
+<img src="Sources\20d9c9ccfee8b5892a145199e458fc79.gif" width="1000" height="500">
+	
 <br><br>
 <hr>
 <div id="About Path Planning">
@@ -35,7 +38,7 @@ Moving outside commercial aviation, path planning is also becoming increasingly 
 <h1>02 | Theory of Path Planning Algorithm</h1>
 	
 <p align="center">
-<img src="Sources\Potential_path.gif" width="500" height="300" class="center">
+<img src="Sources\Potential_path.gif" width="700" height="300" class="center">
 <br>
 	
 The goal of path planning, simply put, is to select the shortest path from the start node to the goal node. An important theory of path planning is the concept of Global and Local Path Planning. Global Path Planning allows the "object" in the start node to complete its travel based on known parameters and obstacles given. Simply put, the environment and its obstacles are known, and the algorithm can use this predetermined information to generate the needed path. On the other hand, Local Path Planning refers to a path planning wherein the obstacles are unknown and are not predefined. Therefore, the object in the algorithm will need to utilize its sensor to detect the environment and complete its travel.
@@ -48,13 +51,17 @@ In order to define the environment that the object will run in, the A Star Path 
 Aside from the start coordinates and goal coordinates, the relevant borders and obstacles also need to be plotted and seen in Matplotlib. The way that these borders and obstacles are plotted centers around creating a list which will contain the points in the map where the obstacles and borders are to be plotted in. The program uses the .append function to add more elements to the list, which would be the points that will be plotted in the graph. The program also utilizes a "for" loop to continuously add these elements within a certain range, until the desired line (which is made up of the points, defined by the elements in the created list) has been formed. Then, the path planning algorithm will plot these points in the map. 
 	
 These are the bases of creating the path planning environment. The exact codes of the algorithm varies depending on the type of algorithm used, but they generally have the same goal: to define the shortest route from the start node to the goal node. 
-
+<hr>
 <br><br>
 
 <div id="Programming Tools">
   
 # 03 | Programming Tools 
+
 	
+<p align="center">
+<img src="Sources\bfc67a7da17b8a3f224b0ba748c71364.gif" width="700" height="300" class="center">
+											       
 <pre>
 <li>Python</a>   <img src="Sources\220px-Python-logo-notext.svg.png" width="40" height="40"></li>
 <li>Github</a>   <img src="Sources\logo_github_icon_143196.png" width="40" height="40"></li>
@@ -62,18 +69,22 @@ These are the bases of creating the path planning environment. The exact codes o
 <p align="center">
 <a href="https://code.visualstudio.com/docs/editor/github"> Click here for brief installation and usage guidance</a>
 </pre>
+<hr>
 <br><br>
 
 <div id="Project Goals">
   
 # 04 | Project Goals
 
+<p align="center">
+<img src="Sources\68747470733a2f2f626c6f672e636c6f75646c617965722e696f2f636f6e74656e742f696d616765732f323032302f31322f646576656c6f7065725f6d65642d312e676966.gif" width="400" height="300" class="center">
+
 <li><a href="#Task 1">Choose the optimum aircraft models with lowest-cost route</a></li>
 <li><a href="#Task 2">Design an aircraft with low operation cost</li>
 <li><a href="#Task 3">Design virtual aircraft model with different cost coefficients to fly as safe and cheap as possible</li>
 <li><a href="#Task 2">Design virtual aircraft model with different cost coefficients to fly as safe and cheap as possible</li>
 <li><a href="#Task 3">Design a minus cost area</li>
-
+<hr>
 
 
 <br><br>
@@ -113,9 +124,9 @@ These are the bases of creating the path planning environment. The exact codes o
 <li>Excel is being utilized to help generate the following table:</li>
 <img src="Week 6 Compulsory Tasks\Task 1\Cost for each plane.png"><br>
 <a href="https://github.com/adrianlua03/ENG1003_w1_Group10/blob/main/Week%206%20Compulsory%20Tasks/Task%201/Cost%20for%20each%20Plane.xlsx?raw=true">Click here for  Excel Raw File</a>	<br><br>
-∴ As can be seen, highlighted in green, the PolyU-A380 scores the lowest Goal Cost under the consideration with the given constraints. It is being animated below:
+<strong>∴</strong> As can be seen, highlighted in green, the PolyU-A380 scores the lowest Goal Cost under consideration with given constraints. Animation below:
 <br>
-	<p align="center">
+<p align="center">
 <img src="Sources\GIFs\AAEFP Task 1 - A380.gif" width="412" height="310">
 </tr></td></table>
 <hr>
@@ -202,7 +213,7 @@ The cost for this task is as shown below:
 From the results shown on the GIF above, it can be seen that the path taken by the A380 in this situation did not alter from the original path taken.  It is also evident that the minus-cost area, shown in blue, coincides with this original path along a diagonal line.  
 
 When compared to real-life situations, the minus-cost area may be analogous to a tailwind in a flight path.  This is because a tailwind may be able to push and speed up the aircraft, requiring less fuel and less time, therefore minimizing the cost.  Unlike in real-life situations, however, the location of a minus-cost area may not always be known and may occur at random times.  Because of this, it may be difficult for flight planners to locate the most efficient route such as what is done in this task.
-
+<hr>
 <br><br>
 
 
@@ -299,12 +310,20 @@ Introducing the concept of flow fields in this pathfinding process is an effecti
 **Potential Field**
 	
 Similar to the flow field algorithm, the potential field algorithm incorportates potential fields in the pathfinding process. This can be practical in research situations wherein the velocity potential of a flow is taken into account. Compared with Flow Field Pathfinding, Potential Field Pathplanning is less practical as Flow Fields are better suited for dynamic situations. 
+<hr>
+<br><br><br>
 
-  
-<br><br>
+
+<br><br><br>
+
+
 <div id="Reflective Essays">
 	
 # 07 | Reflective Essays
+	
+<p align="center">
+<img src="Sources\ecf76f_c399f08accac43ceba9b7f8d92dfcfd3_mv2.gif" width="300">
+	
   
   ####   LUA, Adrian Shalom (21093985D)
   
@@ -345,3 +364,7 @@ With computer aided path planning, accurate weather forecasts can be obtained di
   <table><tr><td>
     typehere5
   </td></tr></table>  
+
+<br><br>
+<p align="center">
+<img src="Sources\have-a-anice-flight-1.gif" width="1000">
