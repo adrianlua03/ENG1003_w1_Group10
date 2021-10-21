@@ -169,9 +169,9 @@ The cost for this task is as shown below:
 
 ### c. Discussion
 
-From the results shown on the GIF above, it can be seen that the path taken by the A380 in this situation did not alter from the original path taken.  It is shown that the minus-cost area, shown in blue, coincides with this original path along a diagonal line.  
+From the results shown on the GIF above, it can be seen that the path taken by the A380 in this situation did not alter from the original path taken.  It is also evident that the minus-cost area, shown in blue, coincides with this original path along a diagonal line.  
 
-{in what real life situation is cost subtracted??? wind current???} *from adrian: cost is subtracted when flying with a tailwind*
+When compared to real-life situations, the minus-cost area may be analogous to a tailwind in a flight path.  This is because a tailwind may be able to push and speed up the aircraft, requiring less fuel and less time, therefore minimizing the cost.  Unlike in real-life situations, however, the location of a minus-cost area may not always be known and may occur at random times.  Because of this, it may be hard for flight planners to locate the most efficient route such as what is done in this task.
 
 <br><br>
 
