@@ -173,7 +173,7 @@ The cost for this task is as shown below:
 
 From the results shown on the GIF above, it can be seen that the path taken by the A380 in this situation did not alter from the original path taken.  It is shown that the minus-cost area, shown in blue, coincides with this original path along a diagonal line.  
 
-{in what real life situation is cost subtracted??? wind current???}
+{in what real life situation is cost subtracted??? wind current???} *from adrian: cost is subtracted when flying with a tailwind*
 
 <br><br>
 
