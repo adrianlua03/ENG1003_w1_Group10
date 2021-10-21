@@ -189,8 +189,15 @@ When compared to real-life situations, the minus-cost area may be analogous to a
 # Additional Tasks
 ## → Adding Checkpoints
 ### a. Methodology
+
+In this task, the A_Star algorithm code first studied for its mechanism and then manipulated to fit the task.  In the code, two functions called "planning" and "calc_final_path" were used to plan and calculate the total cost required for the entire path.  To add checkpoints, these functions were simply multiplied to three  secions (planning1, 2, 3 and calc_final_path1, 2, 3).  Each of these function pairs calculate the minimum cost to travel from one point to another (start to checkpoint 1, checkpoint 1 to 2, checkpoint 2 to goal).  The variables in each function was simply changed to represent different points.  The additional points, along with the animations of each paths, were then defined in the main function.
 	
+Since the checkpoints were required to be located inside each cost-consuming area, the group randomly chose points in these areas, making sure that they did not coincide with the original path plan.  
 	
+### b. Results
+	
+<img src="Sources\GIFs\AAEFP Task 1 - A380.gif" width="309" height="232.5">
+<img src="Sources\GIFs\AdditionalTask1.gif" width="309" height="232.5">
 	
 </td></tr></table>
 
