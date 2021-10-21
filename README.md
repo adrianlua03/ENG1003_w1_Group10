@@ -43,7 +43,7 @@ Aside from the start coordinates and goal coordinates, the relevant borders and 
 	
 These are the bases of creating the path planning environment. The exact codes of the algorithm varies depending on the type of algorithm used, but they generally have the same goal: to define the shortest route from the start node to the goal node. 
 
-
+<br><br>
 
 <div id="Programming Tools">
   
