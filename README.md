@@ -103,7 +103,7 @@ These are the bases of creating the path planning environment. The exact codes o
 
 </td></tr></table>
 
-
+<br><br>
 	
 ## → Task 1:
 <table><tr><td>Find the PolyU Aircraft Model with the minimum cost for the challenge assigned to our group.</td></tr></table>
