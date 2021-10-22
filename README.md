@@ -302,7 +302,7 @@ However, because D Star Algorithm is written in a different way and logic as the
 
 <img src ="Sources\IMG_5941.gif" width="309" height="232.5">
 		
-FLow Field 
+Flow Field 
 	
 For Flow Field Path Planning, the obstacles relied on the assigned vector fields, which is currently beyond the capabilities of the group to modify. Therefore, a different obstacle set was used for Flow Field Path Planning (see figure). However, the group was able to draw comparisons based on theory, which will be discussed after this section. 
 
