@@ -139,8 +139,16 @@ These are the bases of creating the path planning environment. The exact codes o
 	
 
 <pre><strong>2.1 | 4 constraints with 2 variables</strong><br></pre>
-<p align="center">
-<img src="Sources\GIFs\AAEFP Task 2 - 2 Var.gif" width="412" height="310"></li>
+
+### a. Methodology
+
+### b. Results
+
+The path plan is as shown below:  
+<br />
+<img src="Sources\GIFs\AAEFP Task 2 - 2 Var.gif" width="309" height="232.5">
+
+### c. Discussion
   
 <pre><strong>2.2 | 4 constraints with 6 variables</strong><br></pre>
  
