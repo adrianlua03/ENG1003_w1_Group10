@@ -103,8 +103,9 @@ These are the bases of creating the path planning environment. The exact codes o
 
 </td></tr></table>
 
-<table><tr><td>
-<h2>→ Task 1: </h2>
+<hr>
+	
+## → Task 1:
 <table><tr><td>Find the PolyU Aircraft Model with the minimum cost for the challenge assigned to our group.</td></tr></table>
 	<tr><strong>The given features of the 4 PolyU Aircraft Model are as follows:</strong>
 <img src="Sources\Task 1\Aircraft Models.png"></tr><br><br>
@@ -118,8 +119,7 @@ These are the bases of creating the path planning environment. The exact codes o
 
 </td></tr></table>
 
-<hr>
-<table><td><tr>
+
 <tr><h4><i>Solution:</i></tr></h4>
 <li>Excel is being utilized to help generate the following table:</li>
 <img src="Week 6 Compulsory Tasks\Task 1\Cost for each plane.png"><br>
@@ -131,10 +131,10 @@ These are the bases of creating the path planning environment. The exact codes o
 </tr></td></table>
 <hr>
 
-<table><tr><td>
-<h2>→ Task 2</h2>
+
+## → Task 2
 <table><tr><td>Design a new aircraft model within the constrains to achieve minimum cost for your group challenge. 
-</td></tr></table></td></tr></table>
+</td></tr></table>
 
 	
 
@@ -146,11 +146,9 @@ These are the bases of creating the path planning environment. The exact codes o
  
 ### a. Methodology
 	
-Unlike in task 2.1, a graph would not be able to provide an answer as there are six missing variables in this task.  Instead, pure analysis was used to solve this.  Just like in tasks 1 and 2.1, it can be seen that the lower the values of the given variables are, the lower the total cost would be.  This makes sense because, as shown on the given formula above, the total cost is an additive of and directly proportional to the given variables.  Because of this, the higher the variables are, the higher the cost, and vice versa.
-	
-The given constraints also made the analysis simpler because they set a minimum value to the inequalities of the variables.  The same reasoning, as stated earlier, can be applied to this situation, where the higher the values of the variables are, the higher its result of the inequality as it is an additive of the products of specific variables.  
-	
-With this in mind, it can be concluded that to provide the minimum total cost, the result of the inequalities would have to be either equal or close to the set minimum.  Substituting the values in the variables , it can be seen that the further the values of the variables (e.g. C<sub>F</sub> & C<sub>T</sub>) are away from each other, the lower the result of the cost.  This is because the closer the values of the variables are to each other (if all of them are 5), the first inequality is maximized, and as stated earlier, it is favorable for the inequalities to be at its minimum.  This means that the possible values of the cost (C<sub>F</sub> & C<sub>T</sub>) and trip variables (ΔF & ΔT) pairs should only be either 1 or 9.  When substituted to the variables, however, the first inequality is not satisfied (it is below the minimum).  To solve this, two of the variables must be replaced with 2 and 8 instead of 1 and 9; in this case, ΔT and ΔF were replaced, respectively. From this, it can be seen that all inequalities are satisfied and are equal or close to its minimum, resulting in a minimum cost.
+Unlike in task 2.1, a graph would not be able to provide an answer as there are six missing variables in this task.  Instead, pure analysis was used to solve this.  Just like in tasks 1 and 2.1, it can be seen that the lower the values of the given variables are, the lower the total cost would be.  This makes sense because, as shown on the given formula above, the total cost is an additive of and directly proportional to the given variables.  This reasoning would also make the analysis of the constraints simpler since they set a minimum value to the inequalities of the variables.
+
+With this, it can be concluded that to provide the minimum total cost, the result of the inequalities would have to be either equal or close to the set minimum.  Substituting the values in the variables , it can be seen that the further the values of the variables (e.g. C<sub>F</sub> & C<sub>T</sub>) are away from each other, the lower the result of the cost.  This is because if the values of the variables are closer to each other (if all of them are 5), the first inequality is maximized, and as stated earlier, it is favorable for the inequalities to be at its minimum.  This means that the possible values of the cost (C<sub>F</sub> & C<sub>T</sub>) and trip variables (ΔF & ΔT) pairs should only be either 1 or 9.  When substituted to the variables, however, the first inequality is not satisfied (it is below the minimum).  To solve this, two of the variables must be replaced with 2 and 8 instead of 1 and 9; in this case, ΔT and ΔF were replaced, respectively. From this, it can be seen that all inequalities are satisfied and are equal or close to its minimum, resulting in a minimum cost.
 
 With this analysis, however, there may be multiple patterns of ones and nines.  The values of each variables were chosen to further minimize the cost of the path.  As only values of 1 and 9 must be chosen to fulfill the goal of this task, the group must consider which variable or area to give the higher value (9).  To do this, the actual course of the aircraft must be considered.  It can be seen in the course that the aircraft has no way around the fuel-consuming area.  This means that the cost through the fuel-consuming area must be minimized.  This is why the costs of the fuel-consuming area are reduced to 1.  This would also mean that the cost of the time-consuming area should be either 8 or 9.  In this case, 9 was chosen for both.  This is because either way (if the variables are either 8 or 9), the aircraft would avoid this area entirely.  This means that the trip time (not additional time) would have to be equal to 8, minimizing the total cost of the trip time and path.  
 	
@@ -174,10 +172,9 @@ An important implication from this task is that to minimize the cost, minimizing
 	
 <hr>
 
-<table><tr><td>
-<h2>→ Task 3</h2>
+## → Task 3
 <table><tr><td>Design a new cost area that can reduce the cost of the route.
-</td></tr></table></td></tr></table>
+</td></tr></table>
 
 ### a. Methodology
 
@@ -187,11 +184,13 @@ This is because the original path of the PolyU A380 already gives the minimum co
 
 For this task, the formula of the cost was manipulated, as shown below:
 
+<table><tr><td>
 <img src="Sources\Task 3\Task3Formula.png" width="703.3" height="31.4">
 
 With
 
 • D<sub>P</sub> = Distance travelled in minus-cost area
+</table></tr></td>
 
 According to the formula above, the cost deduction was simply subtracted from the original equation.  It can be seen that to get the maximum possible deduction for this path, the distance would have to be altered as the cost per node is fixed.  This would mean that the minus-cost area would have to be a 16-grid-point-long diagonal line 16√2, since this would cover the most distance along the path.  This distance is the maximum possible distance for any case, which means that the maximum possible cost is also fixed for any situation.  This would mean that to obtain the minimum cost, we would have to subtract the maximum possible deduction from the minimum original cost (as calculated in task 1).  
 
@@ -223,7 +222,7 @@ When compared to real-life situations, the minus-cost area may be analogous to a
 ## → Adding Checkpoints
 ### a. Methodology
 
-In this task, the A_Star algorithm code first studied for its mechanism and then manipulated to fit the task.  In the code, two functions called "planning" and "calc_final_path" were used to plan and calculate the total cost required for the entire path.  To add checkpoints, these functions were simply multiplied to three  secions (planning1, 2, 3 and calc_final_path1, 2, 3).  Each of these function pairs calculate the minimum cost to travel from one point to another (start to checkpoint 1, checkpoint 1 to 2, checkpoint 2 to goal).  The variables in each function was simply changed to represent different points.  The additional points, along with the animations of each paths, were then defined in the main function.
+In this task, the A_Star algorithm code first studied for its mechanism and then modified to fit the task.  In the code, two functions called "planning" and "calc_final_path" were used to plan and calculate the total cost required for the entire path.  To add checkpoints, these functions were simply multiplied to three  secions (planning1, 2, 3 and calc_final_path1, 2, 3).  Each of these function pairs calculate the minimum cost to travel from one point to another (start to checkpoint 1, checkpoint 1 to 2, checkpoint 2 to goal).  The variables in each function was simply changed to represent different points.  The additional points, along with the animations of each paths, were then defined in the main function.
 	
 Since the checkpoints were required to be located inside each cost-consuming area, the group randomly chose points in these areas, making sure that they did not coincide with the original path plan.  
 	
@@ -243,7 +242,28 @@ In most real-life scenarios, such as those in military applications, checkpoints
 </td></tr></table>
 	
 ## → Changing Environment
+### a. Methodology
+
+Similar to the previous task, the original A Star Algorithm code was first studied and modified.  For this task, the time-consuming area was first eliminated from the code.  The positions of the fuel consuming area, obstacles, and start and goal points were then modified such that they generate randomly in each run.  To do this, the random module was imported to the code.  
+
+To generate the fuel-consuming area randomly, the group used the random module to generate coordinates for the bottom left corner of the 30x30 square and build up the square from that point.  A range of (-9,30) was used for both coordinates of this point so that when the square generates, it won't overlap with the borders of the map.  
+
+For the obstacles on the other hand, the random module was used to generate obstacles with a probability of 1 in 3.  To do this, a number was randomly generated between 1 and 3 for each point in the map, and if the randomly chosen number is equal to 3, then an obstacle would generate.  This function was also modified such that the obstacles would not generate on the start and goal point. 
+
+As for the start and goal points, the random module was also used to generate their coordinates randomly.  The points are set to generate only within the borders of the map.  For the y-coodinate of the goal point, however, its method of generation had to differ from the rest because the Euclidean distance between the start and goal points must be at least 50.  To do this, a while loop incorporated with the Pythagorean theorem was utilized.  This makes sure that the Euclidean distance between the two points would not go below 50 units.  
 	
+Aside from modifying the positions of the obstacles, the robot's properties were also modified.  The radius of the robot was modified from 1 to 0 so that it would be able to pass through thinner areas.  The movement of the robot was also modified such that it is unable to move diagonally.  To do this, the get_motion_model function was modified such that all diagonal movements were deleted from the code. 
+
+### b. Results
+
+The path plans of 5 randomly generated obstacles are as shown below:
+
+<img src="Sources\GIFs\AdditionalTask2(1).gif" width="309" height="232.5">
+
+### c. Discussion
+
+The results (GIF) above shows 5 different scenarios of the running code, all of which have different positions for the start and goal points, obstacles, and fuel-consuming area. 
+
 ## → Comparing Algorithms
 ### a. Methodology
 	
@@ -261,9 +281,8 @@ The following steps were taken to modify/compare obstacles:
 	
 **Theory**
 	
-Whereas for theory, a less systematic approach was taken. The respective algorithms' principles were studied and relevant research papers were read. Then, a table (see figure below) was used to compare specific properties of the algorithms. 
+Whereas for theory, a less systematic approach was taken. The respective algorithms' principles were studied and relevant research papers were read. Then, a table was used to compare specific properties of the algorithms. 
 	
-(Insert table)
 		
 ### b. Results
 	
@@ -273,25 +292,29 @@ D Star Lite
 	
 For the D Star Lite Algorithm, the obstacle coordinates were successfully changed. The bottom, top, left, and right borders were similar to the assigned A Star Algorithm, and the obstacle sets were similar as well. 
 	
-	
-![DimpledWealthyCardinal-size_restricted](https://user-images.githubusercontent.com/76478835/138321445-4c12d221-f6ef-4734-a4cf-0a9b763daf74.gif)
-
+<img src="Sources\D_Star_Lite_Plot.png" width="309" height="232.5">	
 	
 However, because D Star Algorithm is written in a different way and logic as the A Star Algorithm, the path generated differs from that of the A Star Algorithm. In the path generation for D Star, the algorithm simply passes through the obstacle, which the group finds somewhat unintuitive. The code can be modified to generate a more intuitive path. However, such task is beyond the scope of the obstacle comparison. 
+
+<img src ="Sources\IMG_5941.gif" width="309" height="232.5">
 		
 FLow Field 
 	
-For Flow Field Path Planning, (to be continued)
+For Flow Field Path Planning, the obstacles relied on the assigned vector fields, which is currently beyond the capabilities of the group to modify. Therefore, a different obstacle set was used for Flow Field Path Planning (see figure). However, the group was able to draw comparisons based on theory, which will be discussed after this section. 
+
+<img src ="Sources\Flow Field.gif" width="309" height="232.5">
 	
 Potential Field 
 	
-(To be continued)
+Similar to the Flow Field Path Planning, the obstacles were a challenge to modify, which the group believes cannot be solved within the given time frame. A different obstacle set was used, but the group was able to compare the theoretical aspect of the algorithm. 
+
+<img src ="Sources\PotentialField.gif" width="309" height="232.5">
 	
 **Theory**
 	
 Below is the completed table that highlights the differences and similarities of each algorithm.
 	
-(Insert Table)
+<img src ="Sources\Table_AddTask3_Result.png" width="500" height="500">
 		
 ### c. Discussion
 	
