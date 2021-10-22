@@ -292,9 +292,10 @@ D Star Lite
 For the D Star Lite Algorithm, the obstacle coordinates were successfully changed. The bottom, top, left, and right borders were similar to the assigned A Star Algorithm, and the obstacle sets were similar as well. 
 	
 <img src="Sources\D_Star_Lite_Plot.png" width="309" height="232.5">	
-
 	
 However, because D Star Algorithm is written in a different way and logic as the A Star Algorithm, the path generated differs from that of the A Star Algorithm. In the path generation for D Star, the algorithm simply passes through the obstacle, which the group finds somewhat unintuitive. The code can be modified to generate a more intuitive path. However, such task is beyond the scope of the obstacle comparison. 
+
+<img src ="Sources\IMG_5941.gif" width="309" height="232.5">
 		
 FLow Field 
 	
