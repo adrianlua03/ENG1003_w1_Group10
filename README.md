@@ -263,6 +263,8 @@ The path plans of 5 randomly generated obstacles are as shown below:
 
 ### c. Discussion
 
+
+
 ## → Comparing Algorithms
 ### a. Methodology
 	
