@@ -240,7 +240,9 @@ The GIFs of both the original and modified path plans are presented side-by-side
 In most real-life scenarios, such as those in military applications, checkpoints are set for the flight plans.  It is important to take note that the most efficient path from start to end might not always stop on checkpoints.  This is why checkpoints must almost always be included in calculations such as these to find the most efficient path while fulfilling important tasks along the way.  
 	
 </td></tr></table>
-	
+
+<br><br>
+
 ## → Changing Environment
 ### a. Methodology
 
@@ -267,6 +269,8 @@ The results (GIFs) above shows 5 different scenarios of the running code, all of
 The results of this task plays an important role in further understanding path planning for aircrafts.  The randomness of these obstacles may represent the random weather patterns that may be experienced during flight.  This is why flight paths are not always exactly the same for each flight from one destination to another.  Although the paths may be similar, random weather patterns may allow them to differ, requiring the aircraft to follow other paths to optimize the costs during a flight.  
 
 Unlike in real-life scenarios, weather patterns in different times may not as significantly differ as compared to comparing two adjacent code runs.  The idea of differing environments, however, is important to take into account when planning a flight.  
+
+<br><br>
 
 ## → Comparing Algorithms
 ### a. Methodology
