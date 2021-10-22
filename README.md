@@ -223,7 +223,7 @@ When compared to real-life situations, the minus-cost area may be analogous to a
 ## → Adding Checkpoints
 ### a. Methodology
 
-In this task, the A_Star algorithm code first studied for its mechanism and then manipulated to fit the task.  In the code, two functions called "planning" and "calc_final_path" were used to plan and calculate the total cost required for the entire path.  To add checkpoints, these functions were simply multiplied to three  secions (planning1, 2, 3 and calc_final_path1, 2, 3).  Each of these function pairs calculate the minimum cost to travel from one point to another (start to checkpoint 1, checkpoint 1 to 2, checkpoint 2 to goal).  The variables in each function was simply changed to represent different points.  The additional points, along with the animations of each paths, were then defined in the main function.
+In this task, the A_Star algorithm code first studied for its mechanism and then modified to fit the task.  In the code, two functions called "planning" and "calc_final_path" were used to plan and calculate the total cost required for the entire path.  To add checkpoints, these functions were simply multiplied to three  secions (planning1, 2, 3 and calc_final_path1, 2, 3).  Each of these function pairs calculate the minimum cost to travel from one point to another (start to checkpoint 1, checkpoint 1 to 2, checkpoint 2 to goal).  The variables in each function was simply changed to represent different points.  The additional points, along with the animations of each paths, were then defined in the main function.
 	
 Since the checkpoints were required to be located inside each cost-consuming area, the group randomly chose points in these areas, making sure that they did not coincide with the original path plan.  
 	
@@ -243,7 +243,22 @@ In most real-life scenarios, such as those in military applications, checkpoints
 </td></tr></table>
 	
 ## → Changing Environment
+### a. Methodology
+
+Similar to the previous task, the original A Star Algorithm code was first studied and modified.  For this task, the time-consuming area was first eliminated from the code.  The positions of the fuel consuming area, obstacles, and start and goal points were then modified such that they generate randomly in each run.  To do this, the random module was imported to the code.  
+
+To generate the fuel-consuming area randomly, the group used the random module to generate coordinates for the bottom left corner of the 30x30 square and build up the square from that point.  A range of (-9,30) was used for both coordinates of this point so that when the square generates, it won't overlap with the borders of the map.  
+
+For the obstacles on the other hand, the random module was used to generate obstacles with a probability of 1 in 3.  To do this, a number was randomly generated between 1 and 3 for each point in the map, and if the randomly chosen number is equal to 3, then an obstacle would generate.  This function was also modified such that the obstacles would not generate on the start and goal point. 
+
+As for the start and goal points, the random module was also used to generate their coordinates randomly.  The points are set to generate only within the borders of the map.  For the y-coodinate of the goal point, however, its method of generation had to differ from the rest because the Euclidean distance between the start and goal points must be at least 50.  To do this, a while loop incorporated with the Pythagorean theorem was utilized.  This makes sure that the Euclidean distance between the two points would not go below 50 units.  
 	
+Aside from modifying the positions of the obstacles, the robot's properties were also modified.  The radius of the robot was modified from 1 to 0 so that it would be able to pass through thinner areas.  The movement of the robot was also modified such that it is unable to move diagonally.  To do this, the get_motion_model function was modified such that all diagonal movements were deleted from the code. 
+
+### b. Results
+
+### c. Discussion
+
 ## → Comparing Algorithms
 ### a. Methodology
 	
