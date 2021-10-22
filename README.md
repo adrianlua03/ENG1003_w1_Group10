@@ -241,7 +241,7 @@ In most real-life scenarios, such as those in military applications, checkpoints
 	
 </td></tr></table>
 
-<br><br>
+<hr>
 
 ## → Changing Environment
 ### a. Methodology
@@ -270,7 +270,7 @@ The results of this task plays an important role in further understanding path p
 
 Unlike in real-life scenarios, weather patterns in different times may not as significantly differ as compared to comparing two adjacent code runs.  The idea of differing environments, however, is important to take into account when planning a flight.  
 
-<br><br>
+<hr>
 
 ## → Comparing Algorithms
 ### a. Methodology
