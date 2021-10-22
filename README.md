@@ -353,9 +353,6 @@ Similar to the flow field algorithm, the potential field algorithm incorportates
 <br><br><br>
 
 
-<br><br><br>
-
-
 <div id="Reflective Essays">
 	
 # 07 | Reflective Essays
