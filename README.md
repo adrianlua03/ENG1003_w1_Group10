@@ -258,7 +258,7 @@ Aside from modifying the positions of the obstacles, the robot's properties were
 ### b. Results
 
 The path plans of 5 randomly generated obstacles are as shown below:
-<img src="Sources\GIFs\AdditionalTask2.gif" width="309" height="232.5">
+<img src="Sources\GIFs\AdditionalTask2(1).gif" width="309" height="232.5">
 
 ### c. Discussion
 
