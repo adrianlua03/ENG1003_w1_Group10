@@ -81,8 +81,8 @@ These are the bases of creating the path planning environment. The exact codes o
 
 <li><a href="#Task 1">Choose the optimum aircraft models with lowest-cost route</a></li>
 <li><a href="#Task 2">Design an aircraft with low operation cost</li>
-<li><a href="#Task 2">Design virtual aircraft model with different cost coefficients to fly as safe and cheap as possible(Task 2)</li>
-<li><a href="#Task 3">Design virtual aircraft model with different cost coefficients to fly as safe and cheap as possible(Task 3)</li>
+<li><a href="#Task 3">Design virtual aircraft model with different cost coefficients to fly as safe and cheap as possible</li>
+<li><a href="#Task 2">Design virtual aircraft model with different cost coefficients to fly as safe and cheap as possible</li>
 <li><a href="#Task 3">Design a minus cost area</li>
 <hr>
 
@@ -279,9 +279,8 @@ The following steps were taken to modify/compare obstacles:
 	
 **Theory**
 	
-Whereas for theory, a less systematic approach was taken. The respective algorithms' principles were studied and relevant research papers were read. Then, a table (see figure below) was used to compare specific properties of the algorithms. 
+Whereas for theory, a less systematic approach was taken. The respective algorithms' principles were studied and relevant research papers were read. Then, a table was used to compare specific properties of the algorithms. 
 	
-(Insert table)
 		
 ### b. Results
 	
@@ -299,17 +298,21 @@ However, because D Star Algorithm is written in a different way and logic as the
 		
 FLow Field 
 	
-For Flow Field Path Planning, (to be continued)
+For Flow Field Path Planning, the obstacles relied on the assigned vector fields, which is currently beyond the capabilities of the group to modify. Therefore, a different obstacle set was used for Flow Field Path Planning (see figure). However, the group was able to draw comparisons based on theory, which will be discussed after this section. 
+
+<img src ="Sources\Flow Field.gif" width="309" height="232.5">
 	
 Potential Field 
 	
-(To be continued)
+Similar to the Flow Field Path Planning, the obstacles were a challenge to modify, which the group believes cannot be solved within the given time frame. A different obstacle set was used, but the group was able to compare the theoretical aspect of the algorithm. 
+
+<img src ="Sources\PotentialField.gif" width="309" height="232.5">
 	
 **Theory**
 	
 Below is the completed table that highlights the differences and similarities of each algorithm.
 	
-(Insert Table)
+img src ="Sources\Table_AddTask3_Result.png" width="309" height="232.5"
 		
 ### c. Discussion
 	
