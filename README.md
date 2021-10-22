@@ -312,7 +312,7 @@ Similar to the Flow Field Path Planning, the obstacles were a challenge to modif
 	
 Below is the completed table that highlights the differences and similarities of each algorithm.
 	
-<img src ="Sources\Table_AddTask3_Result.png" width="309" height="232.5">
+<img src ="Sources\Table_AddTask3_Result.png" width="500" height="250.5">
 		
 ### c. Discussion
 	
