@@ -105,8 +105,7 @@ These are the bases of creating the path planning environment. The exact codes o
 
 <hr>
 	
-<table><tr><td>
-<h2>→ Task 1: </h2>
+## → Task 1:
 <table><tr><td>Find the PolyU Aircraft Model with the minimum cost for the challenge assigned to our group.</td></tr></table>
 	<tr><strong>The given features of the 4 PolyU Aircraft Model are as follows:</strong>
 <img src="Sources\Task 1\Aircraft Models.png"></tr><br><br>
@@ -132,10 +131,10 @@ These are the bases of creating the path planning environment. The exact codes o
 </tr></td></table>
 <hr>
 
-<table><tr><td>
-<h2>→ Task 2</h2>
+
+## → Task 2
 <table><tr><td>Design a new aircraft model within the constrains to achieve minimum cost for your group challenge. 
-</td></tr></table></td></tr></table>
+</td></tr></table>
 
 	
 
@@ -173,10 +172,9 @@ An important implication from this task is that to minimize the cost, minimizing
 	
 <hr>
 
-<table><tr><td>
-<h2>→ Task 3</h2>
+## → Task 3
 <table><tr><td>Design a new cost area that can reduce the cost of the route.
-</td></tr></table></td></tr></table>
+</td></tr></table>
 
 ### a. Methodology
 
