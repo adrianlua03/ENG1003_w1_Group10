@@ -103,6 +103,8 @@ These are the bases of creating the path planning environment. The exact codes o
 
 </td></tr></table>
 
+<hr>
+	
 <table><tr><td>
 <h2>→ Task 1: </h2>
 <table><tr><td>Find the PolyU Aircraft Model with the minimum cost for the challenge assigned to our group.</td></tr></table>
@@ -118,7 +120,6 @@ These are the bases of creating the path planning environment. The exact codes o
 
 </td></tr></table>
 
-<hr>
 <table><td><tr>
 <tr><h4><i>Solution:</i></tr></h4>
 <li>Excel is being utilized to help generate the following table:</li>
