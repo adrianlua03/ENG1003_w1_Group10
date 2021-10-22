@@ -119,7 +119,7 @@ These are the bases of creating the path planning environment. The exact codes o
 
 </td></tr></table>
 
-<table><td><tr>
+
 <tr><h4><i>Solution:</i></tr></h4>
 <li>Excel is being utilized to help generate the following table:</li>
 <img src="Week 6 Compulsory Tasks\Task 1\Cost for each plane.png"><br>
@@ -262,7 +262,7 @@ The path plans of 5 randomly generated obstacles are as shown below:
 
 ### c. Discussion
 
-
+The results (GIF) above shows 5 different scenarios of the running code, all of which have different positions for the start and goal points, obstacles, and fuel-consuming area. 
 
 ## → Comparing Algorithms
 ### a. Methodology
