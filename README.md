@@ -122,7 +122,7 @@ These are the bases of creating the path planning environment. The exact codes o
 
 <tr><h4><i>Solution:</i></tr></h4>
 <li>Excel is being utilized to help generate the following table:</li>
-<img src="Week 6 Compulsory Tasks\Task 1\Cost for each plane.png"><br>
+<img src="Week 6 Compulsory Tasks\Task 1\Task1Highlighted.png"><br>
 <a href="https://github.com/adrianlua03/ENG1003_w1_Group10/blob/main/Week%206%20Compulsory%20Tasks/Task%201/Cost%20for%20each%20Plane.xlsx?raw=true">Click here for  Excel Raw File</a>	<br><br>
 <strong>∴</strong> As can be seen, highlighted in green, the PolyU-A380 scores the lowest Goal Cost under consideration with given constraints. Animation below:
 <br>
