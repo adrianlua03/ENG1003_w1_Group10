@@ -121,7 +121,12 @@ These are the bases of creating the path planning environment. The exact codes o
 
 
 <tr><h4><i>Solution:</i></tr></h4>
-<li>Excel is being utilized to help generate the following table:</li>
+
+<strong><h2>a. Methodology</h2></strong>
+<h3>With basic knowledge in how to operate spreadsheet softwares such as Microsoft Excel, we can input all the formulaes and variables into the respective rows and columns to allow the spreadsheet software calculate the solutions. After calculations, the sort function can also be utilized to show the total costs from the smallest value to the largest. </h3>
+
+<strong><h2>b. Results</h2></strong>
+<li>Excel calculations are presented below:</li>
 <img src="Week 6 Compulsory Tasks\Task 1\Task1Highlighted.png"><br>
 <a href="https://github.com/adrianlua03/ENG1003_w1_Group10/blob/main/Week%206%20Compulsory%20Tasks/Task%201/Cost%20for%20each%20Plane.xlsx?raw=true">Click here for  Excel Raw File</a>	<br><br>
 <strong>∴</strong> As can be seen, highlighted in green, the PolyU-A380 scores the lowest Goal Cost under consideration with given constraints. Animation below:
@@ -129,6 +134,10 @@ These are the bases of creating the path planning environment. The exact codes o
 <p align="center">
 <img src="Sources\GIFs\AAEFP Task 1 - A380.gif" width="412" height="310">
 </tr></td></table>
+
+<strong><h2>c. Discussion</h2></strong>
+<h3>In result, the path is being plotted through the fuel consuming area as it is not viable for the plane to be routed outside of the area as it may not be comfortable for passengers and by other means, burns more fuel if more flying time is wasted. 
+
 <hr>
 
 
