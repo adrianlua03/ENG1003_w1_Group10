@@ -137,7 +137,7 @@ These are the bases of creating the path planning environment. The exact codes o
 
 <strong><h2>c. Discussion</h2></strong>
 <p align="center">
-<img src="Sources\Screenshot 2021-10-25 at 9.13.21 AM.png">
+<img src="Sources\Task 1\Screenshot 2021-10-25 at 9.13.21 AM.png" width="412" height="310">
 
 <h3>In result, the path is being plotted through both the fuel and time consuming area as it is not viable for the plane to be routed away, avoiding both of the mentioned area as more acute turns may not be comfortable for passengers and by other means, burns more fuel if flying time increased. </h3>
 
