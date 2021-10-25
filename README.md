@@ -86,8 +86,8 @@ These are the bases of creating the path planning environment. The exact codes o
 <li><a href="#Task 3">Design a minus cost area</li>
 <hr>
 
-
 <br><br>
+	
 <div id="Assignments">
   
 # 05 | Assignments
@@ -142,7 +142,7 @@ These are the bases of creating the path planning environment. The exact codes o
 <h3>In result, the path is being plotted through both the fuel and time consuming area as it is not viable for the plane to be routed away, avoiding both of the mentioned area as more acute turns may not be comfortable for passengers and by other means, burns more fuel if flying time increased. </h3>
 
 <hr>
-
+<br>
 
 ## → Task 2
 <table><tr><td>Design a new aircraft model within the constrains to achieve minimum cost for your group challenge. 
@@ -190,7 +190,7 @@ From the results of this task, it can be seen that similar to the {aircraft of t
 
 An important implication from this task is that to minimize the cost, minimizing all of the variables may not be practical or efficient.  As implied in the analysis from the methodology, all variables work together to minimize the cost.  Some values must be raised to minimize the others; as in real life situations, there will always be constraints similar to the inequalities provided in the task.  Additionally, just because one variable is high does not mean that the total cost would also be high.  In some cases, similar to that of task 2.1, maximizing costs in one area may lead to a different path, which avoids the area entirely.  In most real life situations, choosing a more efficient path, instead of the shortest path, will lead to shorter costs.  
 	
-<hr>
+<hr><br>
 
 ## → Task 3
 <table><tr><td>Design a new cost area that can reduce the cost of the route.
@@ -261,7 +261,7 @@ In most real-life scenarios, such as those in military applications, checkpoints
 	
 </td></tr></table>
 
-<hr>
+<hr><br>
 
 ## → Changing Environment
 ### a. Methodology
@@ -290,7 +290,7 @@ The results of this task plays an important role in further understanding path p
 
 Unlike in real-life scenarios, weather patterns in different times may not as significantly differ as compared to comparing two adjacent code runs.  The idea of differing environments, however, is important to take into account when planning a flight.  
 
-<hr>
+<hr><br>
 
 ## → Comparing Algorithms
 ### a. Methodology
