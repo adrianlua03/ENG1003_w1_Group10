@@ -123,7 +123,8 @@ These are the bases of creating the path planning environment. The exact codes o
 <tr><h4><i>Solution:</i></tr></h4>
 
 <strong><h2>a. Methodology</h2></strong>
-<h3>Cost data are defined for air carrier and general aviation aircraft as variable or fixed. Variable costs change in proportion to aircraft usage, and include fuel and oil, maintenance and crew costs. Since it is quite impossible for a human to keep track of all the aircraft models simultaneously at once, so making calculations using spreadsheet and database softwares such as Microsoft Excel and MySQL, we can input all the respective formulaes and variables into the different terminals or user interfaces to allow the softwares to calculate values either by batch or real-time. After calculations are done, sort function can also be applied to show total costs in order from the least to the largest. </h3>
+
+Cost data are defined for air carrier and general aviation aircraft as variable or fixed. Variable costs change in proportion to aircraft usage, and include fuel and oil, maintenance and crew costs. Since it is quite impossible for a human to keep track of all the aircraft models simultaneously at once, so making calculations using spreadsheet and database softwares such as Microsoft Excel and MySQL, we can input all the respective formulaes and variables into the different terminals or user interfaces to allow the softwares to calculate values either by batch or real-time. After calculations are done, sort function can also be applied to show total costs in order from the least to the largest.
 
 <strong><h2>b. Results</h2></strong>
 <li>Excel calculations are presented below:</li>
@@ -139,7 +140,7 @@ These are the bases of creating the path planning environment. The exact codes o
 <p align="center">
 <img src="Sources\Task 1\Screenshot 2021-10-25 at 9.13.21 AM.png" width="412" height="310">
 
-<h3>In result, the path is being plotted through both the fuel and time consuming area as it is not viable for the plane to be routed away, avoiding both of the mentioned area as more acute turns may not be comfortable for passengers and by other means, burns more fuel if flying time increased. </h3>
+In result, the path is being plotted through both the fuel and time consuming area as it is not viable for the plane to be routed away, avoiding both of the mentioned area as more acute turns may not be comfortable for passengers and by other means, burns more fuel if flying time increased.
 
 <hr>
 <br>
