@@ -163,12 +163,17 @@ Because there are only 2 variables to be determined in this task, a simple graph
 4. Take the vertices and test their values (x,y) in the general equation. 
 5. The values (x,y) that yields the minimum are the chosen values for C_f and C_t of the new aircraft model
 
-Below is the image of the graph: 
+Below is the image of the graph and the calculations: 
 
-<img src="Sources\Task 2\Graph (2).png" width = "309" height = "232.5">
+<img src="Sources\Task 2\Graph.png" width = "500" height = "400">
 
 
 ### b. Results
+
+The table of results is shown below: 
+
+<img src ="Sources\Task 2\2.1Results.png" width = "700" height = "300"
+
 
 The path plan is as shown below:  
 <br />
