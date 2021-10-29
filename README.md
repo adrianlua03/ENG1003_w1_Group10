@@ -165,14 +165,14 @@ Because there are only 2 variables to be determined in this task, a simple graph
 
 Below is the image of the graph and the calculations: 
 
-<img src="Sources\Task 2\Graph.png" width = "1000" height = "700">
+<img src="Sources\Task 2\Graph.png" width = "1000" height = "1000">
 
 
 ### b. Results
 
 The table of results is shown below: 
 
-<img src ="Sources\Task 2\2.1Results.png" width = "700" height = "300">
+<img src ="Sources\Task 2\2.1Results.png" width = "750" height = "300">
 
 
 The path plan is as shown below:  
