@@ -165,10 +165,10 @@ Below is the image of the graph and the calculations:
 
 Aside from this method, another possible solution is to analyze the given inequalities. Solving the inequalities results in the following constraints for both C<sub>f</sub> and C<sub>t</sub>:
 
-10≤C<sub>f</sub>≤60
-20≤C<sub>t</sub>≤40
+10 ≤ C<sub>f</sub> ≤ 60 <br>
+20 ≤ C<sub>t</sub> ≤ 40
 
-To minimize the cost, these variables would have to be minimized as they are possitively correlated to the cost. This results in 2 possible solutions: (10,40) and (20,20). These points were then inputted into the cost formula to see which results in a lower cost.
+The constraints were then analyzed to study how each variable would affect the cost.  As mentioned earlier, to minimize the cost, the variable costs would have to be minimized as they are positively correlated with each other.  This results in 2 possible solutions: (10,40) and (20,20). These points were then inputted into the cost formula to see which has the lower cost.  
 
 ### b. Results
 
@@ -183,11 +183,15 @@ The path plan is as shown below:
 
 ### c. Discussion
   
+According to the results of this task, to minimize the cost of the path plan, the values for C<sub>f</sub> and C<sub>t</sub> would have to be 20 each. 
+
+This task shows how two cost variables may each affect each other and the total cost. In real life scenarios, these costs may be interrelated and finding the balance between the economic costs of these variables may be important in minimizing the total cost of the path plan.  In some cases, fully minimizing one of their costs will result in a higher cost for the other.  Some aspects such as these must be sacrificed to obtain the least total cost.
+
 <pre><strong>2.2 | 4 constraints with 6 variables</strong><br></pre>
  
 ### a. Methodology
 	
-Unlike in task 2.1, a graph would not be able to provide an answer as there are six missing variables in this task.  Instead, pure analysis was used to solve this.  Just like in tasks 1 and 2.1, it can be seen that the lower the values of the given variables are, the lower the total cost would be.  This makes sense because, as shown on the given formula above, the total cost is an additive of and directly proportional to the given variables.  This reasoning would also make the analysis of the constraints simpler since they set a minimum value to the inequalities of the variables.
+Unlike in task 2.1, a graph would not be able to provide an answer as there are six missing variables in this task.  Instead, pure analysis was used to solve this.  Just like in tasks 1 and 2.1, it can be seen that the lower the values of the given variables are, the lower the total cost would be.  This makes sense because, as shown on the given formula above, the total cost is positively correlated with the given variables.  This reasoning would also make the analysis of the constraints simpler since they set a minimum value to the inequalities of the variables.
 
 With this, it can be concluded that to provide the minimum total cost, the result of the inequalities would have to be either equal or close to the set minimum.  Substituting the values in the variables , it can be seen that the further the values of the variables (e.g. C<sub>F</sub> & C<sub>T</sub>) are away from each other, the lower the result of the cost.  This is because if the values of the variables are closer to each other (if all of them are 5), the first inequality is maximized, and as stated earlier, it is favorable for the inequalities to be at its minimum.  This means that the possible values of the cost (C<sub>F</sub> & C<sub>T</sub>) and trip variables (ΔF & ΔT) pairs should only be either 1 or 9.  When substituted to the variables, however, the first inequality is not satisfied (it is below the minimum).  To solve this, two of the variables must be replaced with 2 and 8 instead of 1 and 9; in this case, ΔT and ΔF were replaced, respectively. From this, it can be seen that all inequalities are satisfied and are equal or close to its minimum, resulting in a minimum cost.
 
@@ -195,15 +199,13 @@ With this analysis, however, there may be multiple patterns of ones and nines.  
 	
 ### b. Results
 	
-The path plan is as shown below:  
-<br />
-<img src="Sources\GIFs\AAEFP Task 2 - 6 Var.gif" width="309" height="232.5">
-	
-
 The 6 chosen variables (not including C<sub>C</sub>) and the cost it amounted to are as shown below:
 	
 <img src="Sources\Task 3\Task3Result.png" width="626.25" height="92.25">	
 	
+The path plan is as shown below:  
+<br />
+<img src="Sources\GIFs\AAEFP Task 2 - 6 Var.gif" width="309" height="232.5">
 
 ### c. Discussion
 
@@ -239,14 +241,13 @@ This analysis also shows that altering the path to get the minimum cost would no
 
 ### b. Results
 
-The path plan is as shown below:  
-<br />
-<img src="Sources\GIFs\AAEFP Task 3.gif" width="309" height="232.5">
-
-
 The cost for this task is as shown below:
 	
 <img src="Sources\Task 3\Task3Table.png" width="785.09" height="92.25">
+
+The path plan is as shown below:  
+<br />
+<img src="Sources\GIFs\AAEFP Task 3.gif" width="309" height="232.5">
 
 ### c. Discussion
 
