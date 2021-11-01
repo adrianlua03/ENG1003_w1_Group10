@@ -96,49 +96,44 @@ These are the bases of creating the path planning environment. The exact codes o
 	
 ### Code Ammendments
 <i>
-  "In this project, the group was given the task to modify an A-Star Algorithm code provided by the lecturers to match the required obstacles of the group.  In this algorithm, however, the group located an error in the calculations for the costs of the fuel-consuming and time-consuming area; specifically in lines 149 and 155 of the original code (a_star_noted.py).  In these calculations, the cost of fuel (C<sub>f</sub>) and time (C<sub>t</sub>) were not multiplied to the additional trip fuel (ΔF<sub>a</sub>) and time (ΔT<sub>a</sub>) required, resulting in a cost a little short of what it is supposed to be.  The group was able to resolve this error, as shown below."
-	</i>
+In this project, the group was given the task to modify an A-Star Algorithm code provided by the lecturers to match the required obstacles of the group.  In this algorithm, however, the group located an error in the calculations for the costs of the fuel-consuming and time-consuming area; specifically in lines 149 and 155 of the original code (a_star_noted.py).  In these calculations, the cost of fuel (C<sub>f</sub>) and time (C<sub>t</sub>) were not multiplied to the additional trip fuel (ΔF<sub>a</sub>) and time (ΔT<sub>a</sub>) required, resulting in a cost a little short of what it is supposed to be.  The group was able to resolve this error, as shown below. <br>
+</i>
 	
 <img src="Sources\CodeError.jpg">
-
+<br>
 </td></tr></table>
 
-<br><br>
-	
-## → Task 1:
-<table><tr><td>Find the PolyU Aircraft Model with the minimum cost for the challenge assigned to our group.</td></tr></table>
-	<tr><strong>The given features of the 4 PolyU Aircraft Model are as follows:</strong>
-<img src="Sources\Task 1\Aircraft Models.png"></tr><br><br>
-	<tr><li><strong>By using the following formulae given:</tr></li></strong>
+<tr>The formula used for these tasks is as shown below:</tr>
 <tr><img src="Sources\Task 1\CostFormula.png" width="674.34" height="41.87"></tr>
 
 <strong>With</strong>
 	<tr><li>D<sub>Total</sub> = Total Distance Travelled</li></tr>
 	<tr><li>D<sub>Fa</sub> = Distance Travelled in Fuel Consuming Area</li></tr>
 	<tr><li>D<sub>Ta</sub> = Distance Travelled in Time Consuming Area</li></tr>
-
-</td></tr></table>
-
-
-<tr><h4><i>Solution:</i></tr></h4>
+<hr>
+<br>
+	
+## → Task 1:
+<table><tr><td>Find the PolyU Aircraft Model with the minimum cost for the challenge assigned to our group.</td></tr></table>
 
 <strong><h2>a. Methodology</h2></strong>
 
-Cost data are defined for air carrier and general aviation aircraft as variable or fixed. Variable costs change in proportion to aircraft usage, and include fuel and oil, maintenance and crew costs. Since it is quite impossible for a human to keep track of all the aircraft models simultaneously at once, so making calculations using spreadsheet and database softwares such as Microsoft Excel and MySQL, we can input all the respective formulaes and variables into the different terminals or user interfaces to allow the softwares to calculate values either by batch or real-time. After calculations are done, sort function can also be applied to show total costs in order from the least to the largest.
+The cost data for air carriers and general aviation aircrafts are defined as variable or fixed. Variable costs change in proportion to aircraft usage and include fuel, maintenance, and crew costs. Since it is quite impossible for a human to keep track of all the aircraft models simultaneously, spreadsheets and database softwares such as Microsoft Excel and MySQL can be used by inputing all the respective formulaes and variables into the different terminals or user interfaces to allow the softwares to calculate values either by batch or real-time. After calculations are done, a sort function can also be applied to show total costs in order from the least to the largest.
 
 <strong><h2>b. Results</h2></strong>
-<li>Excel calculations are presented below:</li>
+	
+The summary of costs are as presented below:
 <img src="Week 6 Compulsory Tasks\Task 1\Task1Highlighted.png"><br>
 <a href="https://github.com/adrianlua03/ENG1003_w1_Group10/blob/main/Week%206%20Compulsory%20Tasks/Task%201/Cost%20for%20each%20Plane.xlsx?raw=true">Click here for  Excel Raw File</a>	<br><br>
-<strong>∴</strong> As can be seen, texts colored in red, the PolyU-A380 scores the lowest Goal Cost under consideration with given constraints. Refer to the animation below for the path:
-<br>
-<p align="center">
-<img src="Sources\GIFs\AAEFP Task 1 - A380.gif" width="412" height="310">
+	
+The path plan for the most efficient aircraft (Polyu-A380) is as shown below:
+
+<img src="Sources\GIFs\AAEFP Task 1 - A380.gif" width="309" height="232.5">
 </tr></td></table>
 
 <strong><h2>c. Discussion</h2></strong>
-<p align="center">
-<img src="Sources\Task 1\Screenshot 2021-10-25 at 9.13.21 AM.png" width="412" height="310">
+
+As shown on the results above, the PolyU-A380 has the gives the lowest cost for the entire path plan.  This result may be due to the PolyU-A380 having the lowest variable costs among the four aircrafts. The values of these variables determine the total cost of the flight plan as they are positively correlated to the cost, as shown on the formula above.  
 
 In result, the path is being plotted through both the fuel and time consuming area as it is not viable for the plane to be routed away, avoiding both of the mentioned area as more acute turns may not be comfortable for passengers and by other means, burns more fuel if flying time increased.
 
@@ -226,7 +221,7 @@ For this task, the formula of the cost was manipulated, as shown below:
 <table><tr><td>
 <img src="Sources\Task 3\Task3Formula.png" width="703.3" height="31.4">
 
-With
+<strong>With</strong>
 
 • D<sub>P</sub> = Distance travelled in minus-cost area
 </table></tr></td>
