@@ -102,6 +102,8 @@ In this project, the group was given the task to modify an A-Star Algorithm code
 	<br><br></i>
 </td></tr></table>
 
+<br>
+	
 <tr>The formula used for these tasks is as shown below:</tr>
 <tr><img src="Sources\Task 1\CostFormula.png" width="674.34" height="41.87"></tr>
 
