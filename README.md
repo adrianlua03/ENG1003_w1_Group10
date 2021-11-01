@@ -118,8 +118,10 @@ In this project, the group was given the task to modify an A-Star Algorithm code
 
 <strong><h2>a. Methodology</h2></strong>
 
-The cost data for air carriers and general aviation aircrafts are defined as variable or fixed. Variable costs change in proportion to aircraft usage and include fuel, maintenance, and crew costs. Since it is quite impossible for a human to keep track of all the aircraft models simultaneously, spreadsheets and database softwares such as Microsoft Excel and MySQL can be used by inputing all the respective formulaes and variables into the different terminals or user interfaces to allow the softwares to calculate values either by batch or real-time. After calculations are done, a sort function can also be applied to show total costs in order from the least to the largest.
+The cost data for air carriers and general aviation aircrafts are defined as variable or fixed. Variable costs change in proportion to aircraft usage and include fuel, maintenance, and crew costs. Since it is quite impossible for a human to keep track of all the aircraft models simultaneously, spreadsheets and database softwares can be used by inputing all the respective formulae and variables into the different terminals or user interfaces to allow the softwares to calculate values either by batch or real-time. After calculations are done, a sort function can also be applied to show total costs in order from the least to the largest.
 
+For this task, the values of the variables of the respective PolyU aircraft were inputted into the A-Star Algorithm code.  Their respective values were then compared, and the aircraft with the least total cost was obtained.  
+	
 <strong><h2>b. Results</h2></strong>
 	
 The summary of costs are as presented below:
