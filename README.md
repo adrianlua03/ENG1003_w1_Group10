@@ -123,7 +123,7 @@ The cost data for air carriers and general aviation aircrafts are defined as var
 <strong><h2>b. Results</h2></strong>
 	
 The summary of costs are as presented below:
-<img src="Week 6 Compulsory Tasks\Task 1\Task1Highlighted.png" width="302.3" height="92.25"><br>
+<img src="Week 6 Compulsory Tasks\Task 1\Task1Highlighted.png" width="756.3035" height="230.625"><br>
 	
 <a href="https://github.com/adrianlua03/ENG1003_w1_Group10/blob/main/Week%206%20Compulsory%20Tasks/Task%201/Cost%20for%20each%20Plane.xlsx?raw=true">Click here for  Excel Raw File</a>	<br><br>
 	
@@ -168,7 +168,7 @@ Below is the image of the graph and the calculations:
 
 The table of results is shown below: 
 
-<img src ="Sources\Task 2\2.1Results.png" width = "750" height = "300">
+<img src ="Sources\Task 2\2.1Results.png" width = "626.25" height = "92.25">
 
 
 The path plan is as shown below:  
