@@ -163,6 +163,12 @@ Below is the image of the graph and the calculations:
 
 <img src="Sources\Task 2\Graph1 copy.png" width="558.12" height="298.2">
 
+Aside from this method, another possible solution is to analyze the given inequalities. Solving the inequalities results in the following constraints for both C<sub>f</sub> and C<sub>t</sub>:
+
+10≤C<sub>f</sub>≤60
+20≤C<sub>t</sub>≤40
+
+To minimize the cost, these variables would have to be minimized as they are possitively correlated to the cost. This results in 2 possible solutions: (10,40) and (20,20). These points were then inputted into the cost formula to see which results in a lower cost.
 
 ### b. Results
 
