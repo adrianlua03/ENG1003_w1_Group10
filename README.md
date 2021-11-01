@@ -161,7 +161,7 @@ Because there are only 2 variables to be determined in this task, a simple graph
 
 Below is the image of the graph and the calculations: 
 
-<img src="Sources\Task 2\Graph1 copy.png">
+<img src="Sources\Task 2\Graph1 copy.png" width="465.1" height="248.5">
 
 
 ### b. Results
