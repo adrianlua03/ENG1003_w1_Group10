@@ -153,11 +153,11 @@ In result, the path is being plotted through both the fuel and time consuming ar
 
 Because there are only 2 variables to be determined in this task, a simple graph-and-test approach can be done to find the minimum total cost for the new aircraft model. In this task, the group performed the following steps: 
 
-1. Let C_f = x and C_t = y
-2. In the powerful mathematical graphing software Desmos, place the equations of the 4 constraints assigned. 
+1. Let C<sub>f</sub> = x and C<sub>t</sub> = y
+2. In the mathematical graphing software, Desmos, place the equations of the 4 constraints assigned.
 3. From the graph plotted in Desmos, find the intersection of all 4 equations.
 4. Take the vertices and test their values (x,y) in the general equation. 
-5. The values (x,y) that yields the minimum are the chosen values for C_f and C_t of the new aircraft model
+5. The values (x,y) that yields the minimum are the chosen values for C<sub>f</sub> and C<sub>t</sub> of the new aircraft model
 
 Below is the image of the graph and the calculations: 
 
