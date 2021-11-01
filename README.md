@@ -123,9 +123,9 @@ The cost data for air carriers and general aviation aircrafts are defined as var
 <strong><h2>b. Results</h2></strong>
 	
 The summary of costs are as presented below:
-<img src="Week 6 Compulsory Tasks\Task 1\Task1Highlighted.png"><br>
+<img src="Week 6 Compulsory Tasks\Task 1\Task1Highlighted.png" width="302.3" height="92.25"><br>
 	
-<a href="https://github.com/adrianlua03/ENG1003_w1_Group10/blob/main/Week%206%20Compulsory%20Tasks/Task%201/Cost%20for%20each%20Plane.xlsx?raw=true">Click here for  Excel Raw File</a>	<br>
+<a href="https://github.com/adrianlua03/ENG1003_w1_Group10/blob/main/Week%206%20Compulsory%20Tasks/Task%201/Cost%20for%20each%20Plane.xlsx?raw=true">Click here for  Excel Raw File</a>	<br><br>
 	
 The path plan for the most efficient aircraft (Polyu-A380) is as shown below:
 
