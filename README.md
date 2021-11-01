@@ -188,6 +188,7 @@ According to the results of this task, to minimize the cost of the path plan, th
 
 This task shows how two cost variables may each affect each other and the total cost. In real life scenarios, these costs may be interrelated and finding the balance between the economic costs of these variables may be important in minimizing the total cost of the path plan.  In some cases, fully minimizing one of their costs will result in a higher cost for the other.  Some aspects such as these must be sacrificed to obtain the least total cost.
 
+<br><br>
 <pre><strong>2.2 | 4 constraints with 6 variables</strong><br></pre>
  
 ### a. Methodology
