@@ -15,8 +15,8 @@
 <p align="center">
 <img src="Sources\20d9c9ccfee8b5892a145199e458fc79.gif" width="1000" height="500">
 	
-<br><br>
-<hr>
+
+<hr><br><br>
 <div id="About Path Planning">
 
 <h1>01 | About Path Planning</h1>
