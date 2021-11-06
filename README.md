@@ -447,6 +447,21 @@ With computer aided path planning, accurate weather forecasts can be obtained di
   <table><tr><td>
     typehere5
   </td></tr></table>  
+	
+	
+	
+# References
+	
+(1) Montazeri, A., Can, A., Imran, I. (2021). Advances in Nonlinear Dynamics and Chaos (ANDC), Unmanned Aerial Systems. ch.3, pp.47-80. Academic Press, 2021
+(2) Federal Aviation Administration (2016). Pilot's Handbook of Aeronautical Knowledge, Navigation. Ch. 16. Simon and Schuster, 2016
+(3) Federal Aviation Administration (2021). Airplane Flying Handbook, Aerodynamics of Flight. Ch. 5. Simon and Schuster, 2021
+(4) Siddiqui, R. (2018). Path Planning Using Potential Field Algorithm. Retrieved from https://medium.com/@rymshasiddiqui/path-planning-using-potential-field-algorithm-a30ad12bdb08
+(5) National Aeronautics and Space Administration (n.d.). Definition of Streamlines. Retrieved from https://www.grc.nasa.gov/www/k-12/airplane/stream.html
+(6) Marshall, D. (n.d.). Heuristic Search. Retrieved from https://users.cs.cf.ac.uk/Dave.Marshall/AI2/node23.html
+(7) Princeton University (n.d.), Transition and Turbulence. Retrieved from https://www.princeton.edu/~asmits/Bicycle_web/transition.html
+	
+	
+
 
 <br><br>
 <p align="center">
