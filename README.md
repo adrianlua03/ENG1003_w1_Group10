@@ -14,6 +14,13 @@
 <br>
 <p align="center">
 <img src="Sources\20d9c9ccfee8b5892a145199e458fc79.gif" width="1000" height="500">
+
+<p align="center">
+<a href="https://youtu.be/aUYJMlKWbwA">
+<img src="Sources\youtube-logo-hd-8.png" width="400" alt="Group Presentation Video">
+</a></p>
+<p align="center">
+Click the Youtube Icon above to access our group's Presentation video
 	
 
 <hr><br><br>
