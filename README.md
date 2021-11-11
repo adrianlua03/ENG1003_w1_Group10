@@ -446,7 +446,13 @@ With computer aided path planning, accurate weather forecasts can be obtained di
   ####   WONG Dik Hin (21071947D)
     
   <table><tr><td>
-    typehere4
+    As the first group project, I didn’t thought that it will be hard. I thought it would be just a small project to help us to know how we should work in the university and included some ice-breaking job. But it turns out differently. From the beginning to the end, problems have nearly appeared consistently. There were lots new things kept popping up in the lectures. And over these few weeks, I have really learnt a lot.
+
+First of all, lots of knowledge can be seen in the lessons. I have never heard things like Python and GitHub before. Although I didn’t understand how both of them works, I still able get to know into details that how they operates and what functions they can do. For coding, I know that once we have sufficient time to explore more, there is nothing that is impossible. It can nearly create everything. And the GitHub, it is a useful tool, especially in group projects. Apart from recording our working progress, we can see lots of other programs and articles that people have uploaded to the GitHub.
+
+Other than the above, I have also able to get deeply into path planning. I have heard of it before but just very briefly. I always thought only pilots or airline staffs will need to know about it. I have never thought of freshmen like us would learn it that soon. Initially, I thought we have to do calculations for path planning manually. But after this project, I have figured there are different path planning algorithms and Python can always help us to do the calculations once we have finished coding.
+
+At last, the most important thing that I have learnt is how we should work in modern days. No matter what task you have to deal with, you may face different difficulties. Due to advanced technology, we can easily surf in the internet to find solutions if we don’t want to disturb anyone. Although the internet is full of information, sometimes it may not able to help to solve issues, we can still ask for help from others. Most of the people are quite friendly unless you keep bothering them. They can often inspire us.
   </td></tr></table>  
   
   ####   Chang Jung Wook (21108704D)
