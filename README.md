@@ -459,7 +459,15 @@ At last, the most important thing that I have learnt is how we should work in mo
   ####   Chang Jung Wook (21108704D)
     
   <table><tr><td>
-    typehere5
+    I choose this course because I was interested in coding and the topic “Path Finding Algorithms” attracted me. I don’t have any knowledge about path finding and coding, but I felt that this is the one that I really want to try. When I first attend to this class, as I expected it was big challenge for me because I have no idea what I should have to do in this course. Thankfully, my groupmates helped me to adapt in the course. Also, professor and assistants helped me to work in python and GitHub.
+
+This was my first group project in university. I was quite nervous that I thought group project in university is totally different to project in high school. However, it was not much different from high school, and groupmates all took care of each other and led each other. With groupmates, we were able to separate works efficiently and collaborate to make best result. 
+
+Talk about this topic more deeply, I found out that a lot of underwriting is needed for one coding. At first, I did not think path finding is that complicated. However, the deeper I dig in, the newer things and complicated processes were contained. But these things rather stimulated me and made me more interested. It was also fun to help each other and solve it even if it was difficult because I worked with the team members. When I have to do it alone, through web searching, I tried to find a solution myself and repeat until it works well.
+
+I was assigned to do task 2.1 which is 4 constraints with 2 variables to find a minimum cost for path planning. By working this task, I have to use graphing calculator find inequalities to find out the minimum cost. It was quite challenging but the results it came out was simple which I put in table and calculate the minimum cost. This task shows how two cost variables may each affect each other and the total cost. Additional task which is comparing algorithms was my favorite part. 
+
+At last, I have learned the path finding working process and what kind of effects cause problems. We experienced 2D path planning, graphing, python, programming language, find out the maximum profit (minimum cost). It was my first group project, but I was so satisfied that it ended successfully, and I was thankful and happy for the team members.
   </td></tr></table>  
 	
 	
