@@ -2,7 +2,7 @@
   <summary><h4 style="display: inline-block"><pre>Table of Contents    <i>--(Toggle)</i></pre></h4></summary>  
     <li><a href="#About Path Planning">About Path Planning</a></li>
     <li><a href="#Theory of Path Planning Algorithm">Theory of Path Planning Algorithm</a></li>
-    <li><a href="#Programming Tools">Engineering Tools</a></li>
+    <li><a href="#Programming Tools">Programming Tools</a></li>
     <li><a href="#Project Goals">Project Goals</a></li>
     <li><a href="#Assignments">Assignments</a></li>
     <li><a href="#Additional Tasks">Additional Tasks</a></li>
