@@ -7,6 +7,8 @@
     <li><a href="#Assignments">Assignments</a></li>
     <li><a href="#Additional Tasks">Additional Tasks</a></li>
     <li><a href="#Reflective Essays">Reflective Essays</a></li>
+    <li><a href="#References">References</a></li>
+	
 	<br><br>
 <a href="https://info.flagcounter.com/MqVq"><img src="https://s01.flagcounter.com/count/MqVq/bg_FFFFFF/txt_000000/border_CCCCCC/columns_1/maxflags_5/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
   </ol>
@@ -471,7 +473,8 @@ At last, I have learned the path finding working process and what kind of effect
   </td></tr></table>  
 	
 	
-	
+<div id="References">
+		
 # References
 	
 (1) Montazeri, A., Can, A., Imran, I. (2021). Advances in Nonlinear Dynamics and Chaos (ANDC), Unmanned Aerial Systems. ch.3, pp.47-80. Academic Press, 2021
