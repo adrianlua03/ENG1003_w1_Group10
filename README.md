@@ -456,7 +456,7 @@ Other than the above, I have also able to get deeply into path planning. I have 
 At last, the most important thing that I have learnt is how we should work in modern days. No matter what task you have to deal with, you may face different difficulties. Due to advanced technology, we can easily surf in the internet to find solutions if we don’t want to disturb anyone. Although the internet is full of information, sometimes it may not able to help to solve issues, we can still ask for help from others. Most of the people are quite friendly unless you keep bothering them. They can often inspire us.
   </td></tr></table>  
   
-  ####   Chang Jung Wook (21108704D)
+  ####   CHANG Jung Wook (21108704D)
     
   <table><tr><td>
     I choose this course because I was interested in coding and the topic “Path Finding Algorithms” attracted me. I don’t have any knowledge about path finding and coding, but I felt that this is the one that I really want to try. When I first attend to this class, as I expected it was big challenge for me because I have no idea what I should have to do in this course. Thankfully, my groupmates helped me to adapt in the course. Also, professor and assistants helped me to work in python and GitHub.
