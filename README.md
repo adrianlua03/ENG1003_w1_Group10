@@ -8,7 +8,6 @@
     <li><a href="#Additional Tasks">Additional Tasks</a></li>
     <li><a href="#Reflective Essays">Reflective Essays</a></li>
     <li><a href="#References">References</a></li>
-	
 	<br><br>
 <a href="https://info.flagcounter.com/MqVq"><img src="https://s01.flagcounter.com/count/MqVq/bg_FFFFFF/txt_000000/border_CCCCCC/columns_1/maxflags_5/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
   </ol>
